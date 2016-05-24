@@ -1,8 +1,7 @@
 package com.gonali.crawler.entry;
 
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.parser.analysis.TextAnalysis;
-import com.gonali.crawler.pipeline.impl.MysqlPipeline;
 import com.gonali.crawler.queue.RedisCrawledQue;
 import com.gonali.crawler.queue.RedisToCrawlQue;
 import com.gonali.crawler.scheuler.RedisScheduler;
@@ -38,24 +37,24 @@ public class CrawlerWorkflowManager {
         this.appname = appname;
     }
 
-    public void crawl(List<CrawlData> seeds, String tid, String starttime, int pass) throws IOException {
+    public void crawl(List<CrawlerData> seeds, String tid, String starttime, int pass) throws IOException {
 
         //JedisPoolUtils jedisPoolUtils = new JedisPoolUtils();
         Jedis jedis = JedisPoolUtils.getJedis();//jedisPoolUtils.getJedis();
         nextQueue.putNextUrls(seeds, jedis, tid);
         //初始化布隆过滤hash表
         BloomFilter bloomFilter = new BloomFilter(jedis, 1000, 0.001f, (int) Math.pow(2, 31));
-        for (CrawlData seed : seeds) {
+        for (CrawlerData seed : seeds) {
             bloomFilter.add("redis:bloomfilter", seed.getUrl());
         }
         //初始化webMagic的Spider程序
         initSpider(seeds, textAnalysis);
     }
 
-    protected void initSpider(List<CrawlData> seeds, TextAnalysis textAnalysis) {
+    protected void initSpider(List<CrawlerData> seeds, TextAnalysis textAnalysis) {
         String tempUrl = "";
-        for (CrawlData crawlData : seeds) {
-            tempUrl += crawlData.getUrl() + ",";
+        for (CrawlerData crawlerData : seeds) {
+            tempUrl += crawlerData.getUrl() + ",";
         }
         String urls = tempUrl.substring(0, tempUrl.length() - 1);
 

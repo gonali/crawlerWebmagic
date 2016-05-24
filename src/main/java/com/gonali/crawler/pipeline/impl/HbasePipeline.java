@@ -1,6 +1,6 @@
 package com.gonali.crawler.pipeline.impl;
 
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.pipeline.dbclient.HbaseClient;
 import us.codecraft.webmagic.ResultItems;
 import us.codecraft.webmagic.Task;
@@ -33,7 +33,7 @@ public class HbasePipeline extends BaseDBPipeline {
         logger.debug("HbasePipeline resultItems size: " + resultItems.getAll().size() +
                 "\n\tTask uuid: " + task.getUUID());
 
-        CrawlData crawlerData = resultItems.get("crawlerData");
+        CrawlerData crawlerData = resultItems.get("crawlerData");
 
         if (crawlerData != null) {
 

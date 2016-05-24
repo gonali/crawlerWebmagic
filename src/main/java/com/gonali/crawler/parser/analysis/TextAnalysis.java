@@ -1,7 +1,7 @@
 package com.gonali.crawler.parser.analysis;
 
 
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -19,50 +19,50 @@ public class TextAnalysis implements Serializable {
         this.wholeSiteAnalysis = wholeSiteAnalysis;
     }
 
-    public List<CrawlData> analysisHtml(CrawlData crawlData)   {
-        List<CrawlData> crawlDataList = new ArrayList<>();
+    public List<CrawlerData> analysisHtml(CrawlerData crawlerData)   {
+        List<CrawlerData> crawlerDataList = new ArrayList<>();
 
-        String html = crawlData.getHtml();
+        String html = crawlerData.getHtml();
 
         if(html != null || html.length() > 0) {
-            String rootUrl = crawlData.getRootUrl();
-            long depth = crawlData.getDepthfromSeed();
+            String rootUrl = crawlerData.getRootUrl();
+            long depth = crawlerData.getDepthfromSeed();
             if(depth < 6 )  {
-                String fromUrl = crawlData.getUrl();
+                String fromUrl = crawlerData.getUrl();
                 try {
                     List<BaseURL> baseURLList = wholeSiteAnalysis.getUrlList(fromUrl,html);
                     for (BaseURL baseURL : baseURLList) {
-                        CrawlData newCrawlData = createNewCrawlData(baseURL,rootUrl,depth,fromUrl,crawlData.getPass(),crawlData.getTid(),crawlData.getStartTime());
-                        crawlDataList.add(newCrawlData);
+                        CrawlerData newCrawlerData = createNewCrawlData(baseURL,rootUrl,depth,fromUrl, crawlerData.getPass(), crawlerData.getTid(), crawlerData.getStartTime());
+                        crawlerDataList.add(newCrawlerData);
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
 
-            crawlData.setText(wholeSiteAnalysis.getText());
+            crawlerData.setText(wholeSiteAnalysis.getText());
         }
-        crawlData.setFetched(true);
-        crawlDataList.add(crawlData);
-        return crawlDataList;
+        crawlerData.setFetched(true);
+        crawlerDataList.add(crawlerData);
+        return crawlerDataList;
     }
 
-    public CrawlData createNewCrawlData(BaseURL baseURL, String rootURL, long depth, String fromUrl, int pass, String tid, String startTime)   {
-        CrawlData crawlData = new CrawlData();
+    public CrawlerData createNewCrawlData(BaseURL baseURL, String rootURL, long depth, String fromUrl, int pass, String tid, String startTime)   {
+        CrawlerData crawlerData = new CrawlerData();
         if(baseURL != null) {
             String url = baseURL.getUrl();
-            crawlData.setTid(tid);
-            crawlData.setStartTime(startTime);
-            crawlData.setRootUrl(rootURL);
-            crawlData.setDepthfromSeed(depth + 1);
-            crawlData.setFromUrl(fromUrl);
-            crawlData.setPublishTime(baseURL.getDate());
-            crawlData.setUrl(url);
-            crawlData.setPass(pass);
-            crawlData.setTitle(baseURL.getTitle());
-            crawlData.setFetched(false);
+            crawlerData.setTid(tid);
+            crawlerData.setStartTime(startTime);
+            crawlerData.setRootUrl(rootURL);
+            crawlerData.setDepthfromSeed(depth + 1);
+            crawlerData.setFromUrl(fromUrl);
+            crawlerData.setPublishTime(baseURL.getDate());
+            crawlerData.setUrl(url);
+            crawlerData.setPass(pass);
+            crawlerData.setTitle(baseURL.getTitle());
+            crawlerData.setFetched(false);
         }
-        return crawlData;
+        return crawlerData;
     }
 
 }

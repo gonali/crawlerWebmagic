@@ -1,7 +1,7 @@
 package com.gonali.crawler.entry;
 
 
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.utils.JedisPoolUtils;
 
 import java.util.List;
@@ -17,10 +17,10 @@ public class Crawl {
         InstanceFactory.getInstance(crawlerConfig);
 
         ConfigLoader configLoader = new ConfigLoader();
-        List<CrawlData> crawlDataList = configLoader.load(depth, tid, starttime, pass, seedpath, type);
+        List<CrawlerData> crawlerDataList = configLoader.load(depth, tid, starttime, pass, seedpath, type);
 
         CrawlerWorkflowManager workflow = new CrawlerWorkflowManager(tid, "appname");
-        workflow.crawl(crawlDataList, tid, starttime, pass);
+        workflow.crawl(crawlerDataList, tid, starttime, pass);
     }
 
     public static void main(String[] args) {

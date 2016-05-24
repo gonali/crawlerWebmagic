@@ -1,7 +1,7 @@
 package com.gonali.crawler.pipeline.dbclient;
 
 import com.alibaba.fastjson.JSON;
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.utils.ConfigUtils;
 import com.gonali.crawler.utils.RandomUtils;
 
@@ -30,7 +30,7 @@ public class EsClient extends AbstractDBClient {
     private String typeName;
 
 
-    private List<CrawlData> dataList;
+    private List<CrawlerData> dataList;
 
     private String requestUrl;
 
@@ -66,7 +66,7 @@ public class EsClient extends AbstractDBClient {
 
         int i = 0;
 
-        for (CrawlData o : dataList) {
+        for (CrawlerData o : dataList) {
 
             String dataJson = JSON.toJSONString(o);
 
@@ -90,7 +90,7 @@ public class EsClient extends AbstractDBClient {
         return this.connOpen;
     }
 
-    public void add(CrawlData data) {
+    public void add(CrawlerData data) {
 
         this.dataList.add(data);
     }

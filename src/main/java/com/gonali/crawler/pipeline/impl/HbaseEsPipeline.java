@@ -1,7 +1,7 @@
 package com.gonali.crawler.pipeline.impl;
 
 import com.alibaba.fastjson.JSON;
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.pipeline.dbclient.EsClient;
 import com.gonali.crawler.pipeline.dbclient.HbaseClient;
 import com.gonali.crawler.utils.RandomUtils;
@@ -20,7 +20,7 @@ public class HbaseEsPipeline extends BaseDBPipeline {
     private EsClient esClient;
     private HbaseClient hbaseClient;
 
-    private List<CrawlData> dataList;
+    private List<CrawlerData> dataList;
 
 
     public HbaseEsPipeline() {
@@ -50,7 +50,7 @@ public class HbaseEsPipeline extends BaseDBPipeline {
         try {
 
             this.hbaseClient.insertRecord(HbaseClient.getTableName(),
-                    rowkey, HbaseClient.getColumnFamilyName(), (CrawlData) obj);
+                    rowkey, HbaseClient.getColumnFamilyName(), (CrawlerData) obj);
             ++j;
 
         } catch (Exception ex) {
@@ -72,7 +72,7 @@ public class HbaseEsPipeline extends BaseDBPipeline {
         logger.debug("HbaseEsPipeline resultItems size: " + resultItems.getAll().size() +
                 "\n\tTask uuid: " + task.getUUID());
 
-        CrawlData crawlerData = resultItems.get("crawlerData");
+        CrawlerData crawlerData = resultItems.get("crawlerData");
 
         if (crawlerData != null) {
 

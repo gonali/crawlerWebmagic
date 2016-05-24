@@ -1,6 +1,6 @@
 package com.gonali.crawler.pipeline.impl;
 
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.pipeline.dbclient.MysqlClient;
 import org.apache.http.annotation.ThreadSafe;
 import us.codecraft.webmagic.ResultItems;
@@ -42,15 +42,15 @@ public class MysqlPipeline extends BaseDBPipeline {
         logger.debug("MysqlPipeline resultItems size: " + resultItems.getAll().size() +
                 "\n\tTask uuid: " + task.getUUID());
 
-        CrawlData crawlData = resultItems.get("crawlerData");
+        CrawlerData crawlerData = resultItems.get("crawlerData");
 
-        if (crawlData == null) {
+        if (crawlerData == null) {
             System.out.println("MysqlPipeline crwalerData is NULL");
             logger.warn("MysqlPipeline crwalerData is NULL !!!");
         }
 
 //        for (CrawlData data : crawlData) {
-        add(tableName, crawlData);
+        add(tableName, crawlerData);
 //        }
         int sum = doInsert();
         System.out.println("MysqlPipeline doInsert Successful number: " + sum);
@@ -59,7 +59,7 @@ public class MysqlPipeline extends BaseDBPipeline {
     }
 
 
-    public void add(String tablename, CrawlData data) {
+    public void add(String tablename, CrawlerData data) {
         this.dbClient.addItem(tablename, data);
     }
 

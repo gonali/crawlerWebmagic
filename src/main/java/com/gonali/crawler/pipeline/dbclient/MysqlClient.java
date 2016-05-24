@@ -1,7 +1,7 @@
 package com.gonali.crawler.pipeline.dbclient;
 
 
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.model.FengBirdModel;
 import com.gonali.crawler.utils.ConfigUtils;
 import com.gonali.crawler.utils.CrawlerDataUtils;
@@ -148,7 +148,7 @@ public class MysqlClient extends AbstractDBClient {
     }
 
 
-    public Object addItem(String tableName, CrawlData data) {
+    public Object addItem(String tableName, CrawlerData data) {
 
         InsertSqlModel model = new InsertSqlModel(tableName);
 
@@ -230,7 +230,7 @@ public class MysqlClient extends AbstractDBClient {
         return model;
     }
 
-    public Object addItem(CrawlData data) {
+    public Object addItem(CrawlerData data) {
 
         return null;
     }

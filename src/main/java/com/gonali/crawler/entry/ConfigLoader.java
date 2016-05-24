@@ -1,6 +1,6 @@
 package com.gonali.crawler.entry;
 
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -42,24 +42,24 @@ public class ConfigLoader {
     }
 
     //对种子对应的CrawlData进行赋值
-    public List<CrawlData> load(int depth,String tid,String startTime,int pass,String seedPath,String type) {
+    public List<CrawlerData> load(int depth,String tid,String startTime,int pass,String seedPath,String type) {
         List<String> seedingUrls = loadSeedConfig(seedPath);
 
-        List <CrawlData> crawlDataList = new ArrayList<CrawlData>();
+        List <CrawlerData> crawlerDataList = new ArrayList<CrawlerData>();
         for(String seed : seedingUrls)  {
-            CrawlData crawlData = new CrawlData();
-            crawlData.setTid(tid);
-            crawlData.setUrl(seed);
-            crawlData.setStartTime(startTime);
-            crawlData.setPass(pass);
-            crawlData.setType(type);
-            crawlData.setRootUrl(seed);
-            crawlData.setFromUrl(seed);
-            crawlData.setDepthfromSeed(0);
+            CrawlerData crawlerData = new CrawlerData();
+            crawlerData.setTid(tid);
+            crawlerData.setUrl(seed);
+            crawlerData.setStartTime(startTime);
+            crawlerData.setPass(pass);
+            crawlerData.setType(type);
+            crawlerData.setRootUrl(seed);
+            crawlerData.setFromUrl(seed);
+            crawlerData.setDepthfromSeed(0);
 
-            crawlDataList.add(crawlData);
+            crawlerDataList.add(crawlerData);
         }
-        return crawlDataList;
+        return crawlerDataList;
     }
 
 }

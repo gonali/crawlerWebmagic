@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * Created by Administrator on 2016/4/29.
  */
-public class CrawlData implements Serializable {
+public class CrawlerData implements Serializable {
 //    private final static long serialVersionUID = -2344403674643228206L;
 
     private String tid;
@@ -27,10 +27,10 @@ public class CrawlData implements Serializable {
     private boolean fetched;
 
 
-    public CrawlData() {}
+    public CrawlerData() {}
 
-    public CrawlData(String url, int statusCode, int pass, String type, String rootUrl, String fromUrl, String text, String html, String title,
-                     String startTime, long crawlTime, long publishTime, long depthfromSeed, boolean tag, long count, boolean fetched)  {
+    public CrawlerData(String url, int statusCode, int pass, String type, String rootUrl, String fromUrl, String text, String html, String title,
+                       String startTime, long crawlTime, long publishTime, long depthfromSeed, boolean tag, long count, boolean fetched)  {
         this.url = url;
         this.statusCode = statusCode;
         this.pass = pass;

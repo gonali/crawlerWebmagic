@@ -1,6 +1,6 @@
 package com.gonali.crawler.queue;
 
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.utils.JSONUtil;
 import redis.clients.jedis.Jedis;
 
@@ -11,12 +11,12 @@ import java.util.List;
  */
 public class RedisCrawledQue {
 
-    public void putCrawledQue(List<CrawlData> crawlData, /*JedisPoolUtils jedisPoolUtils*/Jedis jedis, String taskid) {
+    public void putCrawledQue(List<CrawlerData> crawlerData, /*JedisPoolUtils jedisPoolUtils*/Jedis jedis, String taskid) {
 
         try {
 //            Jedis jedis = JedisPoolUtils.getJedis();//jedisPoolUtils.getJedisPool().getResource();
 
-            for (CrawlData data : crawlData) {
+            for (CrawlerData data : crawlerData) {
                 String crawlDataJson = JSONUtil.object2JacksonString(data);
                 jedis.hset("webmagicCrawler::Crawled::" + taskid, data.getUrl(), crawlDataJson);
             }

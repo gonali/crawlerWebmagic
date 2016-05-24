@@ -19,15 +19,15 @@ public class FengBirdModel {
         this.deleteflag = 0;
     }
 
-    public FengBirdModel(CrawlData crawlData) {
+    public FengBirdModel(CrawlerData crawlerData) {
 
-        this.topicTaskID = crawlData.getTid();
-        this.title = crawlData.getTitle();
-        this.labelTime = crawlData.getPublishTime();
-        this.url = crawlData.getUrl();
-        this.fromUrl = crawlData.getFromUrl();
-        this.rootUrl = crawlData.getRootUrl();
-        this.crawlTime = crawlData.getCrawlTime();
+        this.topicTaskID = crawlerData.getTid();
+        this.title = crawlerData.getTitle();
+        this.labelTime = crawlerData.getPublishTime();
+        this.url = crawlerData.getUrl();
+        this.fromUrl = crawlerData.getFromUrl();
+        this.rootUrl = crawlerData.getRootUrl();
+        this.crawlTime = crawlerData.getCrawlTime();
         this.deleteflag = 0;
 
     }

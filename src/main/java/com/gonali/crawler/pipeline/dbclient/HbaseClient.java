@@ -1,6 +1,6 @@
 package com.gonali.crawler.pipeline.dbclient;
 
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.utils.ConfigUtils;
 import com.gonali.crawler.utils.CrawlerDataUtils;
 import com.gonali.crawler.utils.RandomUtils;
@@ -43,7 +43,7 @@ public class HbaseClient extends AbstractDBClient {
     }
 
 
-    private List<CrawlData> dataList;
+    private List<CrawlerData> dataList;
 
     public HbaseClient() {
 
@@ -73,7 +73,7 @@ public class HbaseClient extends AbstractDBClient {
     public int doSetInsert() {
         int i = 0;
 
-        for (CrawlData o : dataList) {
+        for (CrawlerData o : dataList) {
 
             try {
                 i += this.insertRecord(tableName, RandomUtils.getRandomString(50) + "_" + new Date().getTime(), columnFamilyName, o);
@@ -93,13 +93,13 @@ public class HbaseClient extends AbstractDBClient {
     }
 
 
-    public void add(CrawlData data) {
+    public void add(CrawlerData data) {
 
         this.dataList.add(data);
     }
 
 
-    public int insertRecord(String tableName, String rowKey, String columnFamilyName, CrawlData data) throws Exception {
+    public int insertRecord(String tableName, String rowKey, String columnFamilyName, CrawlerData data) throws Exception {
 
         HTableInterface myTable = myPool.getTable(tableName);
         Put put = new Put(Bytes.toBytes(rowKey));// 设置rowkey

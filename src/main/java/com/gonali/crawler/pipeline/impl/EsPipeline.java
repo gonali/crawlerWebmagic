@@ -1,6 +1,6 @@
 package com.gonali.crawler.pipeline.impl;
 
-import com.gonali.crawler.model.CrawlData;
+import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.pipeline.dbclient.EsClient;
 import us.codecraft.webmagic.ResultItems;
 import us.codecraft.webmagic.Task;
@@ -35,7 +35,7 @@ public class EsPipeline extends BaseDBPipeline {
         logger.debug("EsPipeline resultItems size: " + resultItems.getAll().size() +
                 "\n\tTask uuid: " + task.getUUID());
 
-        CrawlData crawlerData = resultItems.get("crawlerData");
+        CrawlerData crawlerData = resultItems.get("crawlerData");
 
         if (crawlerData != null) {
 
