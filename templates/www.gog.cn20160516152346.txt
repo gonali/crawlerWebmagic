@@ -1,0 +1,1033 @@
+www.gog.cn
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>
+</title>
+</head>
+<body>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td align="center" valign="middle">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-color:#f5f5f5; border-bottom:#d9d9d9 1px solid;">
+<tbody>
+<tr>
+<td height="34" align="center" valign="top">
+<table width="1000" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td height="34" align="left" valign="middle" class="h_f_p12">
+·
+<a href="http://www.gog.cn/" target="_blank">
+网站首页
+·
+<a href="http://www.gog.cn/sjb/index.shtml" target="_blank">
+贵州手机报
+·
+<a href="http://club.gog.cn/forum-57-1.html" target="_blank" style="color:#06F;">
+<b>
+投稿
+</b>
+·
+96677
+·
+<a href="http://www.gog.cn/main/24rank/dcgz.html" target="_blank">
+新闻排行
+·
+<a href="http://www.big5.gog.cn/" target="_blank">
+繁体
+·
+<a href="http://www.gog.cn/rss/rss.html" target="_blank">
+RSS
+·
+<a href="http://www.chinadaily.com.cn/m/guizhou/index.html" target="_blank">
+ENGLISH
+·日本�
+</td>
+<td width="400" align="left" valign="middle" class="p12">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<form action="http://search.gog.cn/m_fullsearch/full_search.jsp" method="post" name="form0" id="form0">
+</form>
+<tbody>
+<tr>
+<td>
+<div align="center">
+关键词:
+<select name="channel_id">
+<option value="3000000000000000">
+新闻
+</option>
+<option value="59000000000000000">
+第九届泛珠大会官网
+</option>
+<option value="4000000000000000">
+汽车
+</option>
+<option value="5000000000000000">
+娱乐
+</option>
+<option value="6000000000000000">
+健康
+</option>
+<option value="7000000000000000">
+旅游
+</option>
+<option value="8000000000000000">
+教育
+</option>
+<option value="9000000000000000">
+美食
+</option>
+<option value="10000000000000000">
+多彩评论
+</option>
+<option value="13000000000000000">
+生活
+</option>
+<option value="14000000000000000">
+贵州日报
+</option>
+<option value="15000000000000000">
+贵州都市报
+</option>
+<option value="16000000000000000">
+贵州商报
+</option>
+<option value="20000000000000000">
+专题
+</option>
+<option value="23000000000000000">
+合作频道
+</option>
+<option value="24000000000000000">
+视频
+</option>
+<option value="26000000000000000">
+财经
+</option>
+<option value="27000000000000000">
+文化
+</option>
+<option value="28000000000000000">
+体育
+</option>
+<option value="29000000000000000">
+综合
+</option>
+<option value="30000000000000000">
+图片
+</option>
+<option value="33000000000000000">
+民生
+</option>
+<option value="38000000000000000">
+贵州政务
+</option>
+<option value="39000000000000000">
+贵阳市
+</option>
+<option value="40000000000000000">
+遵义市
+</option>
+<option value="41000000000000000">
+六盘水市
+</option>
+<option value="42000000000000000">
+安顺市
+</option>
+<option value="43000000000000000">
+毕节市
+</option>
+<option value="44000000000000000">
+铜仁市
+</option>
+<option value="45000000000000000">
+黔东南州
+</option>
+<option value="46000000000000000">
+黔南州
+</option>
+<option value="47000000000000000">
+黔西南州
+</option>
+<option value="48000000000000000">
+手机报
+</option>
+<option value="49000000000000000">
+贵州工业经济
+</option>
+<option value="50000000000000000">
+数字贵州
+</option>
+<option value="51000000000000000">
+亲子频道
+</option>
+<option value="34000000000000000">
+贵州白酒
+</option>
+<option value="0">
+全部
+</option>
+</select>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" class="h_f_p12">
+<tbody>
+<tr>
+<td height="35" align="left" valign="middle">
+<a href="http://dcgz.gog.cn/dcbb/" target="_blank">
+多彩播报
+<a href="http://news.gog.cn/" target="_blank">
+新闻
+<a href="http://comment.gog.cn/" target="_blank">
+评论
+<a href="http://zt.gog.cn/" target="_blank">
+专题
+<a href="http://dcgz.gog.cn/dcbb/" target="_blank">
+策划
+<a href="http://vc.gog.cn/" target="_blank">
+宽频
+<a href="http://club.gog.cn/blog.php" target="_blank">
+名博
+<a href="http://club.gog.cn/" target="_blank">
+社区
+<a href="http://news.gog.cn/gzsxwfbt/" target="_blank">
+权威发布
+<a href="http://zt.gog.cn/bumywtzj/index_20130427.html" target="_blank">
+社情民意
+<a href="http://culture.gog.cn/" target="_blank">
+文化
+<a href="http://edu.gog.cn/" target="_blank">
+教育
+<a href="http://travel.gog.cn/" target="_blank">
+旅游
+<a href="http://gongyi.gog.cn/" target="_blank">
+公益
+<a href="http://health.gog.cn/" target="_blank">
+健康
+<a href="http://ent.gog.cn/" target="_blank">
+娱乐
+<a href="http://jqphoto.gog.cn/" target="_blank">
+图片
+<a href="http://qiye.gog.cn/" target="_blank">
+企业
+<a href="http://gzjj.gog.cn/" target="_blank">
+工业
+<a href="http://www.gogbuy.com/" target="_blank">
+电商
+<a href="http://tea.gog.cn/index.shtml" target="_blank">
+黔茶
+<a href="http://finance.gog.cn/">
+金融
+<a href="http://car.gog.cn/" target="_blank">
+汽车
+<a href="http://gngj.gog.cn/index.shtml" target="_blank">
+国内国际
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="mt10" align="center" border="0" cellpadding="0" cellspacing="0" width="1000">
+<tbody>
+<tr>
+<td style="border-bottom:#e1e1e1 1px solid;" align="left" height="50" width="230">
+</td>
+<td class="p12" style="border-bottom:#e1e1e1 1px solid;" align="left" height="50" valign="middle" width="430">
+您当前的位置：
+<a href="http://www.gog.cn/index.shtml">
+多彩贵州网
+<a href="http://www.gog.cn/zonghe/index.shtml">
+多彩贵州网综合
+<a href="http://www.gog.cn/zonghe/jqbb/index.shtml">
+多彩播报
+</td>
+<td align="left" valign="middle">
+</td>
+<td align="center" valign="middle" width="320">
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="117">
+</td>
+<td align="left">
+<a href="http://club.gog.com.cn/" target="_blank">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="mt8" align="center" border="0" cellpadding="0" cellspacing="0" width="1000">
+<tbody>
+<tr>
+<td align="center" valign="top" width="660">
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+<tbody>
+<tr>
+<td align="center" height="70" valign="middle">
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="640">
+<tbody>
+<tr>
+<td align="left" height="20" valign="middle">
+</td>
+</tr>
+</tbody>
+</table>
+<table class="p12 black_ash" style="border-bottom:#e1e1e1 1px solid;" border="0" cellpadding="0" cellspacing="0" width="640">
+<tbody>
+<tr>
+<td align="center" height="50" valign="middle" width="20">
+</td>
+<td width="153">
+<a href="http://www.gog.cn/sjb/index.shtml" target="_blank">
+贵州手机报
+|
+</td>
+<td width="10">
+</td>
+<td width="297">
+|
+新闻热线：
+96667
+|
+<a href="http://club.gog.cn/forum.php?mod=forumdisplay&amp;fid=57" target="_blank">
+投稿
+</td>
+<td align="right" valign="middle" width="160">
+<div data-bd-bind="1442556363783" class="bdsharebuttonbox bdshare-button-style0-16">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="mt12 p12" border="0" cellpadding="0" cellspacing="0" width="640">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+</td>
+</tr>
+</tbody>
+</table>
+<table style="margin-top:10px" border="0" cellpadding="0" cellspacing="0" width="640">
+<tbody>
+<tr>
+<td class="p16" align="left" valign="middle" width="640">
+</td>
+</tr>
+</tbody>
+</table>
+<table style="margin-top:10px" border="0" cellpadding="0" cellspacing="0" width="640">
+<tbody>
+<tr>
+<td class="p17" align="left" valign="middle" width="640">
+</td>
+</tr>
+</tbody>
+</table>
+<table style="margin-top:10px" border="0" cellpadding="0" cellspacing="0" width="640">
+<tbody>
+<tr>
+<td class="p12" align="left" height="30" valign="middle" width="418">
+</td>
+<td align="left" valign="middle" width="62">
+</td>
+<td align="center" valign="middle" width="160">
+<div data-bd-bind="1442556363783" class="bdsharebuttonbox bdshare-button-style0-16">
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<table style="margin-top:50px; border:1px solid #d1d1d1;" border="0" cellpadding="0" cellspacing="0" width="300">
+<tbody>
+<tr>
+<td align="center" height="40" valign="middle" width="111">
+<a href="http://news.gog.cn/" target="_blank">
+返回频道首页
+</td>
+<td align="center" valign="middle" width="76">
+<a href="http://club.gog.cn/" target="_blank">
+进入论坛
+</td>
+<td align="center" valign="middle" width="111">
+</td>
+</tr>
+</tbody>
+</table>
+<table style="margin:20px 0px;" height="20" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td align="center" valign="middle">
+</td>
+</tr>
+</tbody>
+</table>
+<table class="mt12" border="0" cellpadding="0" cellspacing="0" width="640">
+<tbody>
+<tr>
+<td align="center" valign="top" width="320">
+<table style="border-top:#545454 2px solid;" border="0" cellpadding="0" cellspacing="0" width="647">
+<tbody>
+<tr>
+<td class="p16 black_ash bold" style=" border-left:#dcdcdc 1px solid; border-right:#dcdcdc 1px solid;" align="center" height="35" bgcolor="#FFFFFF" valign="middle" width="122">
+相关阅读
+</td>
+<td style="border-bottom:#dcdcdc 1px solid;" align="left" bgcolor="#F7F7F7" valign="middle" width="525">
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="647">
+<tbody>
+<tr>
+<td align="left" valign="top">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="center" valign="top">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="center" valign="top">
+</td>
+<td align="center" valign="top" width="320">
+<table class="mt12" border="0" cellpadding="0" cellspacing="0" width="300">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table style="border-top:#1f5a99 3px solid;" border="0" cellpadding="0" cellspacing="0" width="320">
+<tbody>
+<tr>
+<td class="p16 black_ash bold" style=" border-left:#dcdcdc 1px solid; border-right:#dcdcdc 1px solid;" align="center" height="35" bgcolor="#FFFFFF" valign="middle" width="140">
+新闻推荐
+</td>
+<td style="border-bottom:#dcdcdc 1px solid;" align="left" bgcolor="#F7F7F7" valign="middle" width="231">
+</td>
+</tr>
+</tbody>
+</table>
+<table class="mt8" border="0" cellpadding="0" cellspacing="0" width="300">
+<tbody>
+<tr>
+<td align="left" valign="top">
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+<a href="http://www.gog.cn/zonghe/system/2016/05/06/014899102.shtml" target="_blank">
+<a href="http://www.gog.cn/zonghe/system/2016/05/06/014899102.shtml" target="_blank">
+46处电子监控将启用不系安全带等违法行为进行抓拍
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+<a href="http://www.gog.cn/zonghe/system/2016/05/05/014897150.shtml" target="_blank">
+<a href="http://www.gog.cn/zonghe/system/2016/05/05/014897150.shtml" target="_blank">
+贵州省旅游局正式更名为贵州省旅游发展委员会
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+<a href="http://www.gog.cn/zonghe/system/2016/05/05/014896572.shtml" target="_blank">
+<a href="http://www.gog.cn/zonghe/system/2016/05/05/014896572.shtml" target="_blank">
+第十一届贵州旅发大会将于10日在遵义举行
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+<a href="http://www.gog.cn/zonghe/system/2016/05/05/014897151.shtml" target="_blank">
+<a href="http://www.gog.cn/zonghe/system/2016/05/05/014897151.shtml" target="_blank">
+为保障食品安全贵州将组建省食品检验检测所
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+<a href="http://www.gog.cn/zonghe/system/2016/05/05/014897001.shtml" target="_blank">
+<a href="http://www.gog.cn/zonghe/system/2016/05/05/014897001.shtml" target="_blank">
+揭秘“蛊”术贵州首部冒险悬疑电影《寻蛊》将首播
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+<a href="http://www.gog.cn/zonghe/system/2016/05/04/014894633.shtml" target="_blank">
+<a href="http://www.gog.cn/zonghe/system/2016/05/04/014894633.shtml" target="_blank">
+贵州省办公厅五四活动：对话青年时代争做先锋模范
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="mt12" border="0" cellpadding="0" cellspacing="0" width="300">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table style="border-top:#1f5a99 3px solid;" border="0" cellpadding="0" cellspacing="0" width="320">
+<tbody>
+<tr>
+<td class="p16 black_ash bold" style=" border-left:#dcdcdc 1px solid; border-right:#dcdcdc 1px solid;" align="center" height="35" bgcolor="#FFFFFF" valign="middle" width="140">
+专题策划
+</td>
+<td style="border-bottom:#dcdcdc 1px solid;" align="left" bgcolor="#F7F7F7" valign="middle" width="231">
+</td>
+</tr>
+</tbody>
+</table>
+<table class="mt8" border="0" cellpadding="0" cellspacing="0" width="290">
+<tbody>
+<tr>
+<td align="left" valign="top">
+<table width="100%">
+<tbody>
+<tr>
+<td width="50%">
+<table height="100" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="120" height="90" align="center" valign="middle">
+<a href="http://news.gog.cn/system/2016/03/23/014830394.shtml" target="_blank">
+</td>
+</tr>
+<tr>
+<td height="30" align="center" valign="middle" class="p12 gray">
+<a href="http://news.gog.cn/system/2016/03/23/014830394.shtml" target="_blank">
+<a href="http://news.gog.cn/system/2016/03/23/014830394.shtml" target="_blank">
+【专题】治国理政新实践――贵州篇
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="50%">
+<table height="100" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="120" height="90" align="center" valign="middle">
+<a href="http://news.gog.cn/system/2016/04/27/014883446.shtml" target="_blank">
+</td>
+</tr>
+<tr>
+<td height="30" align="center" valign="middle" class="p12 gray">
+<a href="http://news.gog.cn/system/2016/04/27/014883446.shtml" target="_blank">
+<a href="http://news.gog.cn/system/2016/04/27/014883446.shtml" target="_blank">
+【专题】致匠心！看贵州的“工匠”们
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<table height="100" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="120" height="90" align="center" valign="middle">
+<a href="http://news.gog.cn/system/2016/04/30/014888839.shtml" target="_blank">
+</td>
+</tr>
+<tr>
+<td height="30" align="center" valign="middle" class="p12 gray">
+<a href="http://news.gog.cn/system/2016/04/30/014888839.shtml" target="_blank">
+<a href="http://news.gog.cn/system/2016/04/30/014888839.shtml" target="_blank">
+【图解】十三五贵州要干这些大事
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="50%">
+<table height="100" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="120" height="90" align="center" valign="middle">
+<a href="http://news.gog.cn/system/2016/04/29/014886610.shtml" target="_blank">
+</td>
+</tr>
+<tr>
+<td height="30" align="center" valign="middle" class="p12 gray">
+<a href="http://news.gog.cn/system/2016/04/29/014886610.shtml" target="_blank">
+<a href="http://news.gog.cn/system/2016/04/29/014886610.shtml" target="_blank">
+【图解】“五一”贵州省内自驾神推荐值得收藏
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<table height="100" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="120" height="90" align="center" valign="middle">
+<a href="http://news.gog.cn/system/2016/04/29/014887342.shtml" target="_blank">
+</td>
+</tr>
+<tr>
+<td height="30" align="center" valign="middle" class="p12 gray">
+<a href="http://news.gog.cn/system/2016/04/29/014887342.shtml" target="_blank">
+<a href="http://news.gog.cn/system/2016/04/29/014887342.shtml" target="_blank">
+【图解】必备！为您指路：五一行车让您不堵又安全
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="50%">
+<table height="100" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="120" height="90" align="center" valign="middle">
+<a href="http://news.gog.cn/system/2016/04/08/014853541.shtml" target="_blank">
+</td>
+</tr>
+<tr>
+<td height="30" align="center" valign="middle" class="p12 gray">
+<a href="http://news.gog.cn/system/2016/04/08/014853541.shtml" target="_blank">
+<a href="http://news.gog.cn/system/2016/04/08/014853541.shtml" target="_blank">
+【专题】“百名优秀护士”推荐
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<table height="100" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="120" height="90" align="center" valign="middle">
+<a href="http://news.gog.cn/system/2016/04/19/014869624.shtml" target="_blank">
+</td>
+</tr>
+<tr>
+<td height="30" align="center" valign="middle" class="p12 gray">
+<a href="http://news.gog.cn/system/2016/04/19/014869624.shtml" target="_blank">
+<a href="http://news.gog.cn/system/2016/04/19/014869624.shtml" target="_blank">
+【专题】“五一”带你游贵州
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="50%">
+<table height="100" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="120" height="90" align="center" valign="middle">
+<a href="http://news.gog.cn/system/2016/04/25/014878860.shtml" target="_blank">
+</td>
+</tr>
+<tr>
+<td height="30" align="center" valign="middle" class="p12 gray">
+<a href="http://news.gog.cn/system/2016/04/25/014878860.shtml" target="_blank">
+<a href="http://news.gog.cn/system/2016/04/25/014878860.shtml" target="_blank">
+【图解】家长需要知道的疫苗接种细节
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td width="50%">
+<table height="100" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="120" height="90" align="center" valign="middle">
+<a href="http://news.gog.cn/system/2016/04/21/014874580.shtml" target="_blank">
+</td>
+</tr>
+<tr>
+<td height="30" align="center" valign="middle" class="p12 gray">
+<a href="http://news.gog.cn/system/2016/04/21/014874580.shtml" target="_blank">
+<a href="http://news.gog.cn/system/2016/04/21/014874580.shtml" target="_blank">
+【图解】你了解护士吗？
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td width="50%">
+<table height="100" border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td width="120" height="90" align="center" valign="middle">
+<a href="http://news.gog.cn/system/2016/04/15/014865303.shtml" target="_blank">
+</td>
+</tr>
+<tr>
+<td height="30" align="center" valign="middle" class="p12 gray">
+<a href="http://news.gog.cn/system/2016/04/15/014865303.shtml" target="_blank">
+<a href="http://news.gog.cn/system/2016/04/15/014865303.shtml" target="_blank">
+图解贵州省2016年一季度经济咋样
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="mt12" border="0" cellpadding="0" cellspacing="0" width="300">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="320">
+<tbody>
+<tr>
+<td class="p16 black_ash bold" style=" border-left:#dcdcdc 1px solid; border-right:#dcdcdc 1px solid;" align="center" bgcolor="#FFFFFF" valign="middle">
+<table width="300" height="306" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td align="left" valign="top" bgcolor="#FFFFFF">
+<iframe src="http://zt.gogbuy.com/ad/" frameborder="0" scrolling="no" width="300" height="306">
+</iframe>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="mt12" border="0" cellpadding="0" cellspacing="0" width="300">
+<tbody>
+<tr>
+<td align="center" valign="top">
+<table style="border-top:#1f5a99 3px solid;" border="0" cellpadding="0" cellspacing="0" width="320">
+<tbody>
+<tr>
+<td class="p16 black_ash bold" style=" border-left:#dcdcdc 1px solid; border-right:#dcdcdc 1px solid;" align="center" height="35" bgcolor="#FFFFFF" valign="middle" width="140">
+新闻排行
+</td>
+<td style="border-bottom:#dcdcdc 1px solid;" align="left" bgcolor="#F7F7F7" valign="middle" width="231">
+</td>
+</tr>
+</tbody>
+</table>
+<table class="mt8" border="0" cellpadding="0" cellspacing="0" width="300">
+<tbody>
+<tr>
+<td align="left" valign="top">
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td align="left" valign="middle">
+<div style="float:left; text-align:left; width:96%; height:28px; line-height:28px; overflow:hidden; position:relative; left:0px; top:0px;">
+・
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td align="center" valign="middle">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:15px;">
+<tbody>
+<tr>
+<td bgcolor="#EFEFEF">
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="margin-top:15px; margin-bottom:15px;">
+<tbody>
+<tr>
+<td width="27">
+</td>
+<td width="312">
+</td>
+<td width="627" align="left">
+版权所有未经授权禁止复制或建立镜像
+网站简介|
+<a href="http://zt.gog.cn/system/2014/08/06/013717092.shtml" target="_blank">
+广告刊例
+|联系方式|网站地图
+增值电信业经营许可证（ICP）：黔B2-20010009互联网新闻信息服务许可证:5212006001
+营业执照：520115000201773信息网络传播视听节目许可证：2408241
+互联网出版许可证：新出网证（黔）字001号
+</td>
+<td width="34">
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

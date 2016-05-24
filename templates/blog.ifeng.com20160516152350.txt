@@ -1,0 +1,1065 @@
+blog.ifeng.com
+<html>
+<head>
+</script>
+<script type="text/javascript" src="http://blogfile.ifeng.com/uploadfiles/scripts/common-1.0.js">
+</script>
+<script type="text/javascript" src="http://blogfile.ifeng.com/uploadfiles/scripts/layer-1.0.js?v=110">
+</script>
+<script type="text/javascript" src="http://blogfile.ifeng.com/uploadfiles/scripts/user_home-1.1.js">
+</script>
+<script src="http://m1.ifengimg.com/ifeng/sources/inice_v1.js">
+</script>
+<title>
+向德国学习：中国未来五年应至少新建三百所大学--杨佩昌的博客--凤凰网博客
+</title>
+</head>
+<body>
+<div class="blogIfNav">
+<div class="blogIfNavBox">
+<div class="navL" style="width:350px">
+<a href="http://blog.ifeng.com/" target="_blank">
+<a href="http://www.ifeng.com/" target="_blank">
+凤凰网首页
+<a target="_blank" href="http://3g.ifeng.com/3g/blog.html">
+手机凤凰网
+</div>
+<div class="navR" id="navR_judge">
+<form id="login_form" target="hiddenFrm">
+<a id="btnSwapLogin" style="cursor:pointer">
+登录
+|
+<a target="_blank" href="http://id.ifeng.com/user/register?cb=http://blog.ifeng.com/">
+注册
+|
+<a target="_blank" href="http://id.ifeng.com/findpass/inputid">
+忘记密码
+</form>
+</div>
+</div>
+</div>
+<iframe name="hiddenFrm" id="hiddenFrm" width="0" height="0" frameborder="0" style="display:none;">
+</iframe>
+<div id="common_person_blogtitle">
+<div id="title01">
+<a href="http://yangpeichang.blog.ifeng.com">
+杨佩昌的博客
+</div>
+<div id="title02">
+2012年度凤凰网十大影响力博主
+<a href="http://yangpeichang.blog.ifeng.com">
+http://yangpeichang.blog.ifeng.com
+</div>
+</div>
+<div id="common_blog_nav">
+<div class="blog_nav01">
+<ul style=" width:836px;">
+<li class="current">
+<a href="http://blog.ifeng.com/2261088.html">
+博客
+</li>
+<li class="shux">
+<a href="http://blog.ifeng.com/album/2261088.html">
+相册
+<a name="pic_view_top">
+</li>
+<li class="shux">
+<a href="http://blog.ifeng.com/top/2261088.html">
+报栏
+</li>
+<a href="http://blog.ifeng.com/neighbor/2261088.html" onclick="clearNewTip()">
+左邻右舍
+</li>
+<li>
+<a href="http://blog.ifeng.com/guestbooks/2261088.html" onclick="clearNewTip()">
+留言
+</li>
+</ul>
+</div>
+<div class="clear">
+</div>
+</div>
+<div class="photo_box_s01" id="box_article" style="display: none;top:710px;">
+<div class="box06">
+</div>
+</div>
+<div class="blank2">
+</div>
+<div style="display: none; z-index: 2000; width:340px;" id="delete_notice" class="photo_box_s01">
+<div class="box06">
+你确定要删除此博文及其所有评论吗？
+</div>
+</div>
+<div id="blog_main01" style="margin-top:10px;">
+<div class="blogLeft">
+<div id="blog_main_left">
+<div class="blog_main_left_content">
+<h3>
+<em style="float:right;">
+<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare share-bar-btn">
+分享到：
+<a class="bds_tsina">
+<a class="bds_qzone">
+</div>
+</em>
+<a>
+向德国学习：中国未来五年应至少新建三百所大学
+</h3>
+</div>
+<div class="blog_main_time">
+2016-05-1518:41:32
+<h5>
+归档在
+<a href="http://blog.ifeng.com/category/2261088_0.html" target="_blank">
+我的博文
+浏览118596次
+评论0条
+</h5>
+</div>
+<div id="blog_article_content">
+<b style="mso-bidi-font-weight:normal">
+向德国学习：中国未来五年应至少新建三百所大学
+</b>
+雷洋“嫖娼”事件余温未减，今天又传来了东部省份“高考减招”的消息。据说，仅江苏今年就要调出
+3.8
+万个名额来支援西部地区。消息传来，连一向以谦和、温顺著称的江苏人都急眼了，立马到有关单位门前表达抗议。最终结局相当不错，江苏教育主管部门承诺，今年招生不低于去年，于是皆大欢喜，家长们纷纷愉快地散去。
+涉及到减招的还有高考大省湖北，据说要减少
+4
+万个招生名额，但网上却没有听到湖北家长太大的动静。这一点，可能是湖北离四川较近的缘故。四川高考一本录取率仅
+5.37%
+，排在最后一名。可人家四川人啥话都没说，每天淡定地喝茶、打麻将，所以湖北人也不好意思去搞啥抗议。
+心情最愉快的当属北京、天津和上海三大城市，
+2013-2015
+年三年高考一本的平均录取率分别是
+24.42%
+、
+24.05%
+和
+21.52%
+，位于高考一本录取率的前三名。的确，再穷不能穷非洲孩子，再减也不能减直辖市学生。尽管录取率如此之高，但支援西部地区事情，还是“江苏、湖北您先请！”一线大城市的教育主管部门就是那么讲究，做事都如此客气、彬彬有礼。
+最有意思的是河南，其实也是教育问题上最苦逼的人。我和河南人关系一向不错，所以被请进不少他们开的微信群。听说江苏、湖北减招，有人忆苦思甜，有人不满嚷嚷：我们河南一亿多人口，居然只有郑大一所
+211
+大学、河大一所部属院校，太不公平了！
+微信群群主请我在群里给大家讲讲这个问题。一是我没有那么大的胆子说中国，怕不小心被塞进洗脚房。二是我只熟悉德国情况，谈中国的事情不很专业。于是我给他们举了几个数字：德国面积
+35
+万平方公里，正好比河南大一倍。德国有八千万人口，而河南总人口是
+1.06
+亿，其中常驻人口就
+9413
+万。从人口结构看，德国老龄化远远高于河南，这意味着河南年轻人的数量比德国多得多。仅
+2016
+年河南高考考生人数就达
+82
+万，位居全国第一。而实际上河南才有
+52
+所具有高招资格的本科院校，尽管全国排名第四，但区区
+52
+所高校肯定吸纳不了那么多人，于是只能把眼光盯住外省高校。可问题是，你把学生往其他省份送，你要不要也接纳其他省份的学生？
+那么，人口数特别是年轻人的数量远远少于河南的德国究竟是什么情况呢？德国共有大学
+401
+所，注册学生
+260
+万人。其中综合大学
+110
+所（包括全科、理工和师范等），应用技术大学
+233
+所；艺术、音乐院校
+58
+所；各州双元制学校几十所。每年入学新生约
+30
+万人。除了几十所私立学校收费之外，其他三百多所公立大学皆免费。
+这一比较，聪明的河南人马上明白问题之所在。河南不仅仅是缺重点大学的问题，就连最基本的普通高校都严重缺乏。按照德国标准，河南至少还要建
+300
+所高等院校。
+德国没有全国统一的高考，只是各州自己组织毕业会考。每个学生通过毕业考试再衡量平时成绩，即可拿到中学毕业证书（
+AbituroderFachabitur
+）。根据德国相关教育法律规定，持有中学毕业证书就有权申请大学。一般而言，只要申请都能拿到学习位置。如果是受限专业如企业管理、法律、牙医、药学等，可能会有等待期。德国实行的是宽进严出的教育制度，就是我们中国人常说的“进门容易出门难”。尽管有那么多人入学，但达不到相应标准，根本不能毕业。这其实也是一种公平：机会公平。给你平等的教育机会，至于是否能拿到学位，那就看自己的努力了。
+由于德国实行学年和学分相结合的制度，所以多数学生需要延期才能毕业。据统计，德国按时毕业率只有
+26%
+。德国的毕业关卡得很死，其实还是有不少好处的。明面上的好处是，德国教育质量得到保证，不容易出现“次品”。而隐秘的好处则是，极大地减轻了就业压力。由于多数人延迟毕业，找工作的年龄只好相应推迟。如此下来，德国每年光延迟毕业就减少了大量找工作的人数。更大的好处在于，如果没有工作，人们不能赖就业岗位不够，只能怪自己不够聪明、学习不够努力。把责任推给自己，于是，德国社会就变得异常稳定和谐。
+如果按照德国的做法，应该人人有学上才是。但中国毕竟是特色的初级阶段国家，还是要充分考虑中国国情。因此，不可能出现
+82
+万考生都有学上的情况。那么，一半人上大学，行不行？
+假如其中的一半即
+41
+万人都能上大学，而且要保证合理师资比的话，河南还非得要再建
+300
+所大学不可，其中应该是
+100
+所综合大学、
+200
+所应用技术大学。如此，河南的人口素质想不提高都不行。真到那个时候，以河南人的聪明劲和努力程度，全世界可能不是学习德国工业
+4.0
+，而是要学习河南工业
+5.0
+了。
+如果说河南新建
+300
+所大学有点夸张的话，那么在全中国范围内建
+300
+所大学可不可以？让我们来算一笔账：中国目前
+14
+亿人口，仅有
+2845
+所具有高招资格的本科院校，即
+49.2
+万人拥有一所大学，而德国则是
+19.95
+万人拥有一所大学，按照这个比例，中国应该有
+7017
+所大学才合理。从这个角度上看，中国再建
+300
+所高校，多吗？要说新建
+700
+所都不算多。
+也许很多人会认为，中国没有那么大的财力来新建大学。其实，作为世界上第二大经济体，只要各方节省点，完全有这个能力。官员少拿点、少吃点、对全世界少慷慨点，问题就很容易解决。如果现在还不行，未来五年又如何呢？
+写到这里，我突然才明白点什么。尽管我写了
+400
+多篇介绍德国方方面面的文章，但并没有真正想清楚德国为啥那么厉害。
+8000
+万人口获诺贝尔奖如探囊取物，创造的国民生产总值差点等同于
+14
+亿人口，原来，强大的竞争力来源于德国基数庞大、高质量的教育，这就是德国经济长期发展的奥秘。下大力气投资教育，这是中国必须优先考虑而且是非常急迫的事情。
+本人微信公众号是杨佩昌看德国，也可以直接搜
+ypckdg
+，欢迎关注，谢谢！
+</div>
+<div class="s_evm clearfix">
+有不一样的发现
+</div>
+<div class="box_05 clearfix" style="height:248px">
+<div class="xiaz" style="width:510px; height:214px">
+<a href="http://news.ifeng.com/app/special-api/new-list/ifeng/ifeng_client_spread/" target="_blank">
+</div>
+<div class="button" style="width:80px; padding-right: 8px; float:left; padding-top:15px;">
+<div class="num2">
+<a href="" onclick="l_login();">
+</div>
+<div class="num1">
+<div class="num1_a">
+</div>
+<div class="num1_b" id="commend_num_44766363">
+4
+</div>
+<div class="num1_c">
+</div>
+</div>
+</div>
+</div>
+<var style="display:none;" v="11086,0,0,NULL,fixture">
+</var>
+<div class="blog_article_relate">
+上一篇
+<a href="http://blog.ifeng.com/article/44758279.html">
+德国家长如何面对“问题孩子”？
+</div>
+</div>
+<div class="fld_b00a_1000" itype="block" itag="宽频评论600·0">
+<div itype="chip" itag="标题栏">
+<div class="vmode_comment_titL">
+</div>
+</div>
+<div class="vmode_coment_600">
+<div class="i-mainWrap i-commentPage clearfix">
+<div class="mod-commentNew">
+<div class="mod-commentTextarea">
+<div class="mod-commentTextareaTitle">
+0
+条评论
+/
+0
+人参与
+网友评论
+｜
+<a href="http://comment.ifeng.com/content/gongyue/gtgl.html" class="w-tips" target="_blank">
+跟帖管理
+</div>
+<div class="mod-commentTextareaMiddle defaultCommentDiv" id="defaultCommentDiv">
+<div class="plcg" style="display:none;">
+评论成功
+</div>
+<div class="w-areaBox  w-areaBox-focus">
+<textarea placeholder="文明上网，不传谣言，登录评论！" class="w-commentArea" cols="30" rows="10" id="defaultCommentText1">
+</textarea>
+</div>
+<div class="w-submitBar">
+<a href="" class="w-submitBtn">
+发表评论
+<div class="i-commentFaceBox">
+<div class="mod-comment-inputFaceBox clearfix" style="">
+<a href="" class="w-face-trigger w-trigger-on">
+<div class="mod-comment-nearlyFace">
+<ul class="mod-facesImg-list">
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+</ul>
+</div>
+<div class="mod-comment-faceBox" style="position: absolute;left:-1px;top:40px;">
+<div class="mod-face">
+<div class="arr">
+</div>
+<div class="mod-face-list" style="display:none;">
+<ul class="mod-facesImg-list clearfix">
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+<li>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mod-commentTextareaUser">
+<a>
+</div>
+</div>
+</div>
+<div class="mod-commentNewTitle">
+<div style="text-align:center;" class="cmtloading">
+</div>
+</div>
+<div class="mod-commentNew" id="commentNewDiv">
+</div>
+</div>
+<div class="mod-page">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="blogRight">
+<div class="blogRight_mk">
+<div id="blog_main_right_title">
+<h1>
+关于博主
+</h1>
+</div>
+<div id="blog_main_right_pic">
+<strong>
+杨佩昌
+留德学者，经济史博士，2011年凤凰网十大洞察力博主、2012年凤凰网十大影响力博主、博客十年“影响中国百名博客”、广东信孚研究院研究员，著有《为什么德国民富国强》、《德国式领导力》、《欧洲顶级大学传奇》等。从不删帖，如有此现象与博主无关。不负责任的发言请考虑后果。本博主公开宣布，从未受到任何外国机构的指使，所有博文言论均发自内心。
+</div>
+</div>
+<div class="clear">
+</div>
+<div class="blogRight_mk">
+<div id="blog_main_right_title">
+<h1>
+广而告之
+</h1>
+</div>
+<div id="blog_main_right_more">
+<var style="display:none;" v="7249,0,0,NULL,fixture">
+</var>
+</div>
+</div>
+<div class="blogRight_mk">
+<div id="blog_main_right_title">
+<h1>
+博文相关
+</h1>
+</div>
+<div id="blog_main_right_more">
+<ul>
+<h2>
+·归类
+</h2>
+<li>
+<a href="http://blog.ifeng.com/2261088.html">
+全部分类
+</li>
+<li>
+<a href="http://blog.ifeng.com/category/2261088_155272.html">
+游记
+</li>
+<li>
+<a href="http://blog.ifeng.com/category/2261088_155273.html">
+杂谈
+</li>
+<li>
+<a href="http://blog.ifeng.com/category/2261088_155274.html">
+社会
+</li>
+<li>
+<a href="http://blog.ifeng.com/category/2261088_155275.html">
+经济
+</li>
+<li>
+<a href="http://blog.ifeng.com/category/2261088_155277.html">
+企业管理
+</li>
+<li>
+<a href="http://blog.ifeng.com/category/2261088_155278.html">
+采访
+</li>
+<li>
+<a href="http://blog.ifeng.com/category/2261088_155326.html">
+转贴
+</li>
+</ul>
+<div class="clear">
+</div>
+<ul id="article_year_month_list">
+<h2>
+·归档
+</h2>
+<li>
+<a onclick="displayYear('2016');">
+2016
+<b id="count_2016">
+（9）
+</b>
+<div class="list" id="list_2016" style="display:none;">
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201605.html">
+五月
+（3）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201604.html">
+四月
+（1）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201603.html">
+三月
+（1）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201602.html">
+二月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201601.html">
+一月
+（2）
+</div>
+</div>
+</li>
+<li>
+<a onclick="displayYear('2015');">
+2015
+<b id="count_2015">
+（24）
+</b>
+<div class="list" id="list_2015" style="display:none;">
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201512.html">
+十二月
+（3）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201511.html">
+十一月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201510.html">
+十月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201509.html">
+九月
+（3）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201508.html">
+八月
+（4）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201507.html">
+七月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201506.html">
+六月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201505.html">
+五月
+（1）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201504.html">
+四月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201502.html">
+二月
+（1）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201501.html">
+一月
+（2）
+</div>
+</div>
+</li>
+<li>
+<a onclick="displayYear('2014');">
+2014
+<b id="count_2014">
+（35）
+</b>
+<div class="list" id="list_2014" style="display:none;">
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201412.html">
+十二月
+（8）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201411.html">
+十一月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201410.html">
+十月
+（6）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201408.html">
+八月
+（4）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201407.html">
+七月
+（3）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201406.html">
+六月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201405.html">
+五月
+（1）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201404.html">
+四月
+（1）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201403.html">
+三月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201402.html">
+二月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201401.html">
+一月
+（4）
+</div>
+</div>
+</li>
+<li>
+<a onclick="displayYear('2013');">
+2013
+<b id="count_2013">
+（38）
+</b>
+<div class="list" id="list_2013" style="display:none;">
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201312.html">
+十二月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201311.html">
+十一月
+（5）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201310.html">
+十月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201309.html">
+九月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201308.html">
+八月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201307.html">
+七月
+（3）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201306.html">
+六月
+（5）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201305.html">
+五月
+（1）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201304.html">
+四月
+（4）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201303.html">
+三月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201302.html">
+二月
+（1）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201301.html">
+一月
+（9）
+</div>
+</div>
+</li>
+<li>
+<a onclick="displayYear('2012');">
+2012
+<b id="count_2012">
+（50）
+</b>
+<div class="list" id="list_2012" style="display:none;">
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201212.html">
+十二月
+（4）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201211.html">
+十一月
+（5）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201210.html">
+十月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201209.html">
+九月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201208.html">
+八月
+（8）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201207.html">
+七月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201206.html">
+六月
+（9）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201205.html">
+五月
+（4）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201204.html">
+四月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201203.html">
+三月
+（3）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201202.html">
+二月
+（4）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201201.html">
+一月
+（5）
+</div>
+</div>
+</li>
+<li>
+<a onclick="displayYear('2011');">
+2011
+<b id="count_2011">
+（41）
+</b>
+<div class="list" id="list_2011" style="display:none;">
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201112.html">
+十二月
+（9）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201111.html">
+十一月
+（6）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201110.html">
+十月
+（4）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201109.html">
+九月
+（3）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201108.html">
+八月
+（8）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_201107.html">
+七月
+（11）
+</div>
+</div>
+</li>
+<li>
+<a onclick="displayYear('2009');">
+2009
+<b id="count_2009">
+（52）
+</b>
+<div class="list" id="list_2009" style="display:none;">
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_200905.html">
+五月
+（2）
+</div>
+<div>
+<a href="http://blog.ifeng.com/archive/2261088_200904.html">
+四月
+（50）
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="blogRight_mk">
+<div id="blog_main_right_title">
+<h1>
+博主最近发表的10篇博文
+</h1>
+</div>
+<div id="blog_main_right_link">
+<ul>
+<li>
+<a href="http://blog.ifeng.com/article/44766363.html" target="_blank">
+向德国学习：中国未来五年应至少新建三百…
+</li>
+<li>
+<a href="http://blog.ifeng.com/article/44758279.html" target="_blank">
+德国家长如何面对“问题孩子”？
+</li>
+<li>
+<a href="http://blog.ifeng.com/article/44681142.html" target="_blank">
+欧美企业如何巧妙实现创新？
+</li>
+<li>
+<a href="http://blog.ifeng.com/article/44595014.html" target="_blank">
+德国房价稳定是多重合力的结果-答傅蔚…
+</li>
+<li>
+<a href="http://blog.ifeng.com/article/44305591.html" target="_blank">
+德国房价为何能够保持长期稳定？
+</li>
+<li>
+<a href="http://blog.ifeng.com/article/43893974.html" target="_blank">
+美国社会何以做到相互信任？
+</li>
+<li>
+<a href="http://blog.ifeng.com/article/43790689.html" target="_blank">
+德国人究竟如何养老？
+</li>
+<li>
+<a href="http://blog.ifeng.com/article/43293500.html" target="_blank">
+大陆该如何应对胜选后的民进党？
+</li>
+<li>
+<a href="http://blog.ifeng.com/article/43243037.html" target="_blank">
+我被德国人当成了小偷
+</li>
+<li>
+<a href="http://blog.ifeng.com/article/40159834.html" target="_blank">
+德国工业4.0距离我们有多远？
+</li>
+</ul>
+</div>
+</div>
+<div id="blogRight_mk">
+<var style="display:none;" v="8348,0,0,NULL,fixture">
+</var>
+</div>
+<div class="blogRight_mk p_0a">
+<div class="blogtj clearfix">
+<div class="bglog_wx">
+<a href="http://blog.ifeng.com/article/44766363.html?touping#" target="_blank">
+凤凰博报微信
+</div>
+<div class="blog_gz">
+<div class="vblog01">
+<h3>
+<a href="http://weibo.com/ifengblog" class="f_weibo" target="_blank">
+凤凰博报
+</h3>
+<iframe width="230" height="24" frameborder="0" allowtransparency="true" marginwidth="0" marginheight="0" scrolling="no" border="0" src="http://widget.weibo.com/relationship/followbutton.php?language=zh_cn&amp;width=230&amp;height=24&amp;uid=1644307977&amp;style=1&amp;btn=red&amp;dpc=1">
+</iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<var style="display:none;" v="11087,0,0,NULL,fixture">
+</var>
+<var style="display:none;" v="11087,0,0,NULL,fixture">
+</var>
+</div>
+<div class="clear">
+</div>
+</div>
+<div>
+<var style="display:none;" v="7248,0,0,NULL,fixture">
+</var>
+</div>
+<div>
+<var style="display:none;" v="7250,0,0,NULL,fixture">
+</var>
+</div>
+<div id="editor_name" style="display:none;">
+bloger_2261088
+</div>
+<div class="blank09">
+</div>
+<div style="background:#fff;">
+客服电话：(010)84458487客服邮箱：
+<a href="mailto:blog@ifeng.com">
+</a>
+blog@ifeng.com
+</center>
+<div class="chaFotNav">
+<ul class="endNList">
+<li>
+<a href="http://www.ifeng.com/" target="_blank">
+首页
+</li>
+<li>
+<a href="http://news.ifeng.com/" target="_blank">
+资讯
+</li>
+<li>
+<a href="http://news.ifeng.com/taiwan/" target="_blank">
+台湾
+</li>
+<li>
+<a href="http://opinion.ifeng.com/" target="_blank">
+评论
+</li>
+<li>
+<a href="http://finance.ifeng.com/" target="_blank">
+财经
+</li>
+<li>
+<a href="http://auto.ifeng.com/" target="_blank">
+汽车
+</li>
+<li>
+<a href="http://tech.ifeng.com/" target="_blank">
+科技
+</li>
+<li>
+<a href="http://house.ifeng.com/" target="_blank">
+房产
+</li>
+<li>
+<a href="http://travel.ifeng.com/" target="_blank">
+旅游
+</li>
+<li>
+<a href="http://ent.ifeng.com/" target="_blank">
+娱乐
+</li>
+<li>
+<a href="http://fashion.ifeng.com/" target="_blank">
+时尚
+</li>
+<li>
+<a href="http://news.ifeng.com/sports/" target="_blank">
+体育
+</li>
+<li>
+<a href="http://news.ifeng.com/mil/" target="_blank">
+军事
+</li>
+<li>
+<a href="http://news.ifeng.com/history/" target="_blank">
+历史
+</li>
+<li>
+<a href="http://book.ifeng.com/" target="_blank">
+读书
+</li>
+<li>
+<a href="http://edu.ifeng.com/" target="_blank">
+教育
+</li>
+<li>
+<a href="http://health.ifeng.com/" target="_blank">
+健康
+</li>
+<li>
+<a href="http://baby.ifeng.com/" target="_blank">
+亲子
+</li>
+<li>
+<a href="http://games.ifeng.com/" target="_blank">
+游戏
+</li>
+<li>
+<a href="http://city.ifeng.com/" target="_blank">
+城市
+</li>
+<li>
+<a href="http://bbs.ifeng.com/" target="_blank">
+论坛
+</li>
+<li>
+<a href="http://blog.ifeng.com/" target="_blank">
+博报
+</li>
+</ul>
+<div class="navFocus">
+<div class="navV">
+<a href="http://v.ifeng.com/" target="_blank">
+视频
+·
+</div>
+<div class="navTmp">
+<a href="http://v.ifeng.com/documentary/index.shtml" target="_blank">
+纪实
+·
+</div>
+<div class="ifengPlay">
+<a href="http://v.ifeng.com/live/" target="_blank">
+直播
+</div>
+<div class="tvPlay">
+<a href="http://phtv.ifeng.com/" target="_blank">
+凤凰卫视
+</div>
+</div>
+<div class="clear">
+</div>
+</div>
+<div class="chaFotNav02">
+</div>
+<div class="chaFooter">
+<div class="footLink">
+<a href="http://www.ifeng.com/corp/about/intro/" target="_blank">
+凤凰新媒体介绍
+|
+<a href="http://www.ifeng.com/corp/ad/" target="_blank">
+广告服务
+|
+<a href="http://career.ifeng.com/" target="_blank">
+诚征英才
+|
+<a href="http://www.ifeng.com/corp/privacy/" target="_blank">
+保护隐私权
+|
+<a href="http://www.ifeng.com/corp/exemption/" target="_blank">
+免责条款
+|
+<a href="http://www.ifeng.com/corp/counselor/" target="_blank">
+法律顾问
+|
+<a href="http://www.ifeng.com/corp/feedback/" target="_blank">
+意见反馈
+|
+<a href="http://phtv.ifeng.com/intro/" target="_blank">
+凤凰卫视介绍
+<a href="http://www.irasia.com/listco/hk/phoenixtv/" target="_blank">
+投资者关系InvestorRelations
+</div>
+<div class="copyright">
+凤凰新媒体版权所有
+Copyright©1996-2011PhoenixNewMediaInc.AllRightsReserved.
+</div>
+</div>
+14.166.9.20140310014900
+</div>
+</body>
+</html>

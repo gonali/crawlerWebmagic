@@ -1,0 +1,26 @@
+{
+  "mappings": {
+    "crawlerData": {
+      "dynamic": "false",
+      "properties": {
+        "tid":           {"type": "string" },
+        "url":           {"type": "string", "store": true },
+        "statusCode":    {"type": "integer"},
+        "pass":          {"type": "integer"},
+        "type":          {"type": "string" },
+        "rootUrl":       {"type": "string" },
+        "fromUrl":       {"type": "string" },
+        "text":          {"type": "string" },
+        "html":          {"type": "string", "index": "not_analyzed" },
+        "title":         {"type": "string", "store": true },
+        "startTime":     {"type": "string" },
+        "crawlTime":     {"type": "long"   },
+        "publishTime":   {"type": "long",   "store": true },
+        "depthfromSeed": {"type": "long"   },
+        "count":         {"type": "long"   },
+        "tag":           {"type":"boolean", "store": true },
+        "fetched":       {"type":"boolean" }
+      }
+    }
+  }
+}

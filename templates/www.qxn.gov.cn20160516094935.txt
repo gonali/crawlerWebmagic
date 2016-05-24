@@ -1,0 +1,313 @@
+www.qxn.gov.cn
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>
+</title>
+</head>
+<body>
+<div id="warp">
+<div class="top-area">
+<div class="search">
+</div>
+・
+<a href="http://www.gov.cn" target="_blank">
+中国政府网
+・
+<a href="http://www.gzgov.gov.cn" target="_blank">
+贵州省人民政府
+</div>
+<div id="header">
+<div class="banner_1">
+<div class="logo">
+<div>
+<a href="http://en.qxn.gov.cn">
+・英文版（English）
+<a href="http://wza.qxn.gov.cn" target="_blank">
+・无障碍预览
+</div>
+</div>
+<div class="search">
+<div style="height:38px;">
+</div>
+<div style="height:35px;">
+<form action="/Search.html" target="_blank" method="get">
+</form>
+</div>
+<div style="line-height:30px; height:30px">
+<strong style="color:#F30">
+热词：
+<a href="http://www.qxn.gov.cn/Search.html?Q=陈鸣明" target="_blank">
+陈鸣明
+<a href="http://www.qxn.gov.cn/Search.html?Q=张政" target="_blank">
+张政
+<a href="http://www.qxn.gov.cn/Search.html?Q=杨永英" target="_blank">
+杨永英
+<a href="http://www.qxn.gov.cn/Search.html?Q=群众路线" target="_blank">
+群众路线
+<a href="http://www.qxn.gov.cn/Search.html?Q=同步小康" target="_blank">
+同步小康
+<a href="http://www.qxn.gov.cn/Search.html?Q=万峰林" target="_blank">
+万峰林
+<a href="http://www.qxn.gov.cn/Search.html?Q=水墨金州" target="_blank">
+水墨金州
+</div>
+</div>
+<div class="logo_img">
+<object data="http://www.qxn.gov.cn/Imgs/banner_img/bcastr4.swf?xml=http://www.qxn.gov.cn/Imgs/banner_img/bcastr.xml" height="120" id="bcastr4" type="application/x-shockwave-flash" width="284">
+</object>
+</div>
+<div class="clear">
+</div>
+</div>
+<div id="menu_gd" style="width:960px; background:#FFF; margin-bottom:5px;">
+<div class="menu" id="menu">
+<ul>
+<a href="http://focus.weibo.com/pub/i/zt/qxnfb" target="_blank" title="州内政务微博群">
+@政务微博群
+<a href="http://www.qxn.gov.cn/View/XXFB.Article/52330.html" target="_blank">
+・RSS
+<li>
+<a href="http://www.qxn.gov.cn/">
+网站首页
+</li>
+<li>
+<a href="http://www.qxn.gov.cn/Travel.html">
+走进金州
+</li>
+<li>
+<a href="http://www.qxn.gov.cn/GovPublic.html">
+信息公开
+</li>
+<li>
+<a href="http://www.qxn.gov.cn/NetWorking.html">
+网上办事
+</li>
+<a href="http://www.qxn.gov.cn/Investment.html">
+招商引资
+</li>
+<li>
+<a href="http://www.qxn.gov.cn/Interactive.html">
+政民互动
+</li>
+<li>
+<a href="http://www.qxn.gov.cn/PublicService.html">
+公共服务
+</li>
+<li>
+<a href="http://www.qxn.gov.cn/zt.html">
+专题专栏
+</li>
+<a href="http://www.qxn.gov.cn/Enterprises.html">
+企事业信息公开
+</li>
+</ul>
+</div>
+</div>
+<div style="position: fixed; bottom: 5px;  _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,30)||0))); _position:absolute; _bottom:auto; left: 60px" id="Left1">
+</div>
+</div>
+<div id="main">
+<div class="dh mb5 b-ltrb">
+<a href="http://www.qxn.gov.cn/">
+金州网
+文章内容
+</div>
+<div class="view-box b-ltrb mb5">
+<div class="title">
+<h1>
+</h1>
+<h2>
+</h2>
+<a class="ffun" id="ftb" href="" target="_self">
+大
+<a id="ftn" href="" class="ft" target="_self">
+中
+<a class="ffun" id="fts" href="" target="_self">
+小
+】
+【打印内容】
+<a href="http://www.qxn.gov.cn/PostErrUrl.html">
+【内容纠错】
+<div style="padding:10px; font-weight: normal">
+<table width="100%" border="1" cellspacing="1" cellpadding="1" style="border:1px solid #999">
+<tbody>
+<tr>
+<td width="10%" align="center" bgcolor="#EFF3F5">
+<strong>
+索引号：
+</td>
+<td width="40%" align="left">
+</td>
+<td width="10%" align="center" bgcolor="#EFF3F5">
+<strong>
+主题分类：
+</td>
+<td width="40%" colspan="3" align="left">
+综合政务-其他
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#EFF3F5">
+<strong>
+发布机构：
+</td>
+<td align="left">
+黔西南日报
+</td>
+<td align="center" bgcolor="#EFF3F5">
+<strong>
+发文日期：
+</td>
+<td align="left">
+</td>
+<td align="center" bgcolor="#EFF3F5">
+<strong>
+是否有效：
+</td>
+<td align="center">
+是
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#EFF3F5">
+<strong>
+名称：
+</td>
+<td colspan="5" align="left">
+</td>
+</tr>
+<tr>
+<td align="center" bgcolor="#EFF3F5">
+<strong>
+文号：
+</td>
+<td colspan="5" align="left">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="con" id="IDNewsDtail">
+<font size="3">
+</font>
+</div>
+<div style="text-align:center">
+</div>
+<div class="con" style="display:none">
+<div style="display:block; font-size:14px; border-bottom:1px solid #E3E3E3; color:#800000">
+<strong>
+网民评论（文明上网，理性发言）
+</div>
+<div>
+<form method="post" enctype="application/x-www-form-urlencoded">
+<div>
+您的姓名：
+(内容字数必须大于10字)
+</div>
+<div>
+<textarea style="width:98%; height:80px;" id="txt" name="txt">
+</textarea>
+</div>
+<div>
+</div>
+</form>
+</div>
+<ul class="list mb5">
+</ul>
+</div>
+<div class="con">
+<div style="display:block; font-size:14px; border-bottom:1px solid #E3E3E3; color:#800000">
+<strong>
+相关文章推荐
+</div>
+<ul class="list mb5">
+<li>
+・
+<a href="http://www.qxn.gov.cn/View/zwyw/151248.html" target="_blank" title="州委召开常委（扩大）会议">
+州委召开常委（扩大）会议
+2016-04-076089人看过
+</li>
+<li>
+・
+<a href="http://www.qxn.gov.cn/View/zwyw/147625.html" target="_blank" title="世界银行专家考察团考察我州交通基础设施项目">
+世界银行专家考察团考察我州交通基础设施项目
+2016-03-024399人看过
+</li>
+<li>
+・
+<a href="http://www.qxn.gov.cn/View/zwyw/151358.html" target="_blank" title="一处处亮点 一个个突破―― 2016年全省第一次项目建设现场观摩会走进黔西南侧记">
+一处处亮点一个个突破――2016年全省第一次项目建设现场观摩会走进黔西南侧记
+2016-04-084031人看过
+</li>
+<li>
+・
+<a href="http://www.qxn.gov.cn/View/zwyw/152951.html" target="_blank" title="省政府副省长刘远坤到册亨县调研扶贫工作">
+省政府副省长刘远坤到册亨县调研扶贫工作
+2016-04-254023人看过
+</li>
+<li>
+・
+<a href="http://www.qxn.gov.cn/View/zwyw/149113.html" target="_blank" title="恒大集团考察我州旅游产业">
+恒大集团考察我州旅游产业
+2016-03-173648人看过
+</li>
+</ul>
+</div>
+<div class="pg" style="height:30px;">
+<label>
+上一条文章：
+</label>
+<label>
+</label>
+</div>
+<div class="other">
+<div class="bdsharebuttonbox" style="line-height:30px;">
+分享到：
+新浪微博
+腾讯微博
+人民微博
+网易微博
+微信
+QQ好友
+QQ空间
+人人网
+打印
+邮件分享
+</div>
+</div>
+</div>
+<div class="clear">
+</div>
+<div class="footer mb5" style="height:100px;background-color:#ae0002">
+<div class="nav">
+<a href="http://www.qxn.gov.cn/ViewGovPublic/About/53968.html" target="_blank">
+关于本站
+|
+<a href="http://www.qxn.gov.cn/ViewGovPublic/About/53967.html" target="_blank">
+帮助信息
+|
+<a href="http://www.qxn.gov.cn/PostErrUrl.html">
+内容纠错
+|
+<a href="http://www.qxn.gov.cn/ViewGovPublic/About/53969.html" target="_blank">
+联系我们
+|
+<a href="http://bgt.gzgov.gov.cn/" target="_blank">
+政府网站问题曝光台
+|
+<a href="http://www.qxn.gov.cn/gg/public/" target="_blank">
+网站备案[黔ICP备05002961号-1]
+</div>
+<div class="copyright">
+网站主办：黔西南州人民政府办公室网站承办：黔西南州电子政务办公室
+黔西南州政府系统门户网站群技术支持电话：0859-3239990
+<div style="display:none">
+<a href="http://webscan.360.cn/index/checkwebsite/url/www.qxn.gov.cn">
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
