@@ -27,7 +27,7 @@ public class TextAnalysis implements Serializable {
         if(html != null || html.length() > 0) {
             String rootUrl = crawlerData.getRootUrl();
             long depth = crawlerData.getDepthfromSeed();
-            if(depth < 6 )  {
+            if(depth < 10 )  {
                 String fromUrl = crawlerData.getUrl();
                 try {
                     List<BaseURL> baseURLList = wholeSiteAnalysis.getUrlList(fromUrl,html);

@@ -3,6 +3,7 @@ package com.gonali.crawler.pipeline.dbclient;
 import com.alibaba.fastjson.JSON;
 import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.utils.ConfigUtils;
+import com.gonali.crawler.utils.HttpUtils;
 import com.gonali.crawler.utils.RandomUtils;
 
 import java.io.BufferedReader;
@@ -19,10 +20,11 @@ import java.util.List;
  */
 public class EsClient extends AbstractDBClient {
 
-    private static final String REQUEST_POST = "POST";
-    private static final String REQUEST_GET = "GET";
-    private static final String REQUEST_DELETE = "DELETE";
-    private static final String REQUEST_PUT = "PUT";
+//    private static final String REQUEST_POST = "POST";
+//    private static final String REQUEST_GET = "GET";
+//    private static final String REQUEST_DELETE = "DELETE";
+//    private static final String REQUEST_PUT = "PUT";
+
 
     private String hostname;
     private int port;
@@ -72,10 +74,12 @@ public class EsClient extends AbstractDBClient {
 
             try {
 
-                this.doPut(this.requestUrl + RandomUtils.getRandomString(50) + "_" + new Date().getTime(), dataJson);
+                //this.doPut(this.requestUrl + RandomUtils.getRandomString(50) + "_" + new Date().getTime(), dataJson);
+                HttpUtils.doPut(this.requestUrl + RandomUtils.getRandomString(50) + "_" + new Date().getTime(), dataJson);
                 ++i;
 
             } catch (Exception ex) {
+                logger.warn("EsClient doSetInsert Exception!!! DATA IS: " + dataJson);
                 logger.warn("EsClient doSetInsert Exception!!! Message: " + ex.getMessage());
                 ex.printStackTrace();
             }
@@ -85,6 +89,23 @@ public class EsClient extends AbstractDBClient {
         return i;
     }
 
+    public int doSetInsert(String url, String data) {
+
+        try {
+
+
+            HttpUtils.doPut(url, data);
+
+
+        } catch (Exception ex) {
+            logger.warn("EsClient doSetInsert Exception!!! DATA IS: " + data);
+            logger.warn("EsClient doSetInsert Exception!!! Message: " + ex.getMessage());
+            ex.printStackTrace();
+            return 0;
+        }
+
+        return 1;
+    }
 
     public boolean isConnOpen() {
         return this.connOpen;
@@ -100,7 +121,7 @@ public class EsClient extends AbstractDBClient {
         return requestUrl;
     }
 
-    public String doPost(String urlStr, String data) throws Exception {
+/*    public String doPost(String urlStr, String data) throws Exception {
         System.out.println("EsClient.doPost Request Url: " + urlStr);
         logger.debug("EsClient.doPost Request Url: + urlStr");
         URL url = new URL(urlStr);
@@ -196,7 +217,7 @@ public class EsClient extends AbstractDBClient {
 
         return result;
 
-    }
+    }*/
 
 /*    public static void main(String[] args) {
 

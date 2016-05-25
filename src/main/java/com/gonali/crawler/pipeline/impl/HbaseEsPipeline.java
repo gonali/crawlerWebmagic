@@ -39,7 +39,7 @@ public class HbaseEsPipeline extends BaseDBPipeline {
 
         try {
 
-           this.esClient.doPut(this.esClient.getRequestUrl() + rowkey, JSON.toJSONString(obj));
+            this.esClient.doSetInsert(this.esClient.getRequestUrl() + rowkey, JSON.toJSONString(obj));
             ++i;
         } catch (Exception ex) {
 
@@ -49,8 +49,8 @@ public class HbaseEsPipeline extends BaseDBPipeline {
 
         try {
 
-            this.hbaseClient.insertRecord(HbaseClient.getTableName(),
-                    rowkey, HbaseClient.getColumnFamilyName(), (CrawlerData) obj);
+            this.hbaseClient.insertRecord(hbaseClient.getTableName(),
+                    rowkey, hbaseClient.getColumnFamilyName(), (CrawlerData) obj);
             ++j;
 
         } catch (Exception ex) {

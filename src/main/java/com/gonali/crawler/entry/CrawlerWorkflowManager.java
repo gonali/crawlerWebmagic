@@ -2,6 +2,8 @@ package com.gonali.crawler.entry;
 
 import com.gonali.crawler.model.CrawlerData;
 import com.gonali.crawler.parser.analysis.TextAnalysis;
+import com.gonali.crawler.pipeline.impl.EsPipeline;
+import com.gonali.crawler.pipeline.impl.MysqlPipeline;
 import com.gonali.crawler.queue.RedisCrawledQue;
 import com.gonali.crawler.queue.RedisToCrawlQue;
 import com.gonali.crawler.scheuler.RedisScheduler;
@@ -11,6 +13,7 @@ import com.gonali.crawler.utils.JedisPoolUtils;
 import com.gonali.crawler.utils.LogManager;
 import redis.clients.jedis.Jedis;
 import us.codecraft.webmagic.Spider;
+import us.codecraft.webmagic.pipeline.ConsolePipeline;
 
 import java.io.IOException;
 import java.util.List;
@@ -63,9 +66,10 @@ public class CrawlerWorkflowManager {
                         //从seed开始抓
                 .addUrl(urls)
                         //存入mysql
-//                .addPipeline(new MysqlPipeline("tb_fbird"))
+                .addPipeline(new MysqlPipeline("tb_fbird"))
                         //存入elasticSearch
 //                .addPipeline(new EsPipeline())
+                .addPipeline(new ConsolePipeline())
 //                .addPipeline(new HbaseEsPipeline())
 //                .addPipeline(new HbasePipeline())
                         //开启5个线程抓取

@@ -3,21 +3,21 @@
     "crawlerData": {
       "dynamic": "false",
       "properties": {
-        "tid":           {"type": "string" },
+        "tid":           {"type": "string", "store": true },
         "url":           {"type": "string", "store": true },
-        "statusCode":    {"type": "integer"},
-        "pass":          {"type": "integer"},
+        "statusCode":    {"type": "integer", "store": true},
+        "pass":          {"type": "integer",  "store": true},
         "type":          {"type": "string" },
         "rootUrl":       {"type": "string" },
         "fromUrl":       {"type": "string" },
         "text":          {"type": "string" },
-        "html":          {"type": "string", "index": "not_analyzed" },
+        "html":          {"type": "string", "index": "no" },
         "title":         {"type": "string", "store": true },
         "startTime":     {"type": "string" },
-        "crawlTime":     {"type": "long"   },
+        "crawlTime":     {"type": "long",  "store": true  },
         "publishTime":   {"type": "long",   "store": true },
         "depthfromSeed": {"type": "long"   },
-        "count":         {"type": "long"   },
+        "count":         {"type": "long",  "store": true  },
         "tag":           {"type":"boolean", "store": true },
         "fetched":       {"type":"boolean" }
       }

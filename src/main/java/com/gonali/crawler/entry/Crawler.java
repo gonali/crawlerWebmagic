@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * Created by Administrator on 2016/5/18.
  */
-public class Crawl {
+public class Crawler {
     public static void kick(int depth, int pass, String tid, String starttime, String seedpath, String protocolDir,
                             String postregexDir, String type, int recalldepth, String templatesDir, String clickregexDir, String configpath) throws Exception {
         //tid_startTime作为appname，即作为这个爬虫的任务名称
