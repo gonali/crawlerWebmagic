@@ -42,13 +42,11 @@ public class WholesitePageProcessor implements PageProcessor {
 
     @Override
     public void process(Page page) {
-        //JedisPoolUtils jedisPoolUtils = null;
         Jedis jedis = null;
         String url = page.getRequest().getUrl();
 
         try {
-            // jedisPoolUtils = new JedisPoolUtils();
-            jedis = JedisPoolUtils.getJedis();//jedisPoolUtils.getJedis();
+            jedis = JedisPoolUtils.getJedis();
             String json_crawlData = jedis.hget("webmagicCrawler::ToCrawl::" + tid, page.getRequest().getUrl());
             CrawlerData page_crawlerData = (CrawlerData) JSONUtil.jackson2Object(json_crawlData, CrawlerData.class);
             jedis.hdel("webmagicCrawler::ToCrawl::" + tid, page.getRequest().getUrl());
@@ -111,7 +109,12 @@ public class WholesitePageProcessor implements PageProcessor {
     }
 
     public boolean linkFilter(CrawlerData crawlerData) {
-        if (!crawlerData.getUrl().endsWith(".css") && !crawlerData.getUrl().endsWith(".js")&& !crawlerData.getUrl().endsWith(".gif")&& !crawlerData.getUrl().endsWith(".png") && !crawlerData.getUrl().endsWith(".jpg") && crawlerData.getUrl().contains("http://china.huanqiu.com/"/*"http://www.gog.cn/"*/)) {
+        if (!crawlerData.getUrl().endsWith(".css") &&
+                !crawlerData.getUrl().endsWith(".js") &&
+                !crawlerData.getUrl().endsWith(".gif") &&
+                !crawlerData.getUrl().endsWith(".png") &&
+                !crawlerData.getUrl().endsWith(".jpg") &&
+                crawlerData.getUrl().contains("http://china.huanqiu.com/"/*"http://www.gog.cn/"*/)) {
             return true;
         } else {
             return false;

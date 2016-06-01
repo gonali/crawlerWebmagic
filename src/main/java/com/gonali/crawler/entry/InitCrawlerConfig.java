@@ -17,7 +17,7 @@ public class InitCrawlerConfig {
     private static List<BaseTemplate> listTemplate;
     private static List<String> regexList;
     private static List<String> protocols;
-    private static int recalldepth;
+    private static int recallDepth;
     private static BloomFilter sparkBloomFilter;
 
     public List<String> getPostRegex() {
@@ -53,11 +53,11 @@ public class InitCrawlerConfig {
     }
 
     public int getRecalldepth() {
-        return recalldepth;
+        return recallDepth;
     }
 
     public void setRecalldepth(int recalldepth) {
-        this.recalldepth = recalldepth;
+        this.recallDepth = recalldepth;
     }
 
     public static BloomFilter getSparkBloomFilter() {
@@ -69,13 +69,14 @@ public class InitCrawlerConfig {
     }
 
 
-    public InitCrawlerConfig(String appname, int recalldepth, String templatesDir, String clickregexDir, String protocolDir, String postregexDir)   {
+    public InitCrawlerConfig(String appname, int recallDepth, String templatesDir, String clickregexDir, String protocolDir, String postregexDir)   {
 
         //读取模板
         listTemplate = new ArrayList<>();
         String str;
 //        File files = new File("C:\\temp\\templates");
         File files = new File("/home/TianyuanPan/IdeaProjects/webmagicDemo/templates/");
+//        File files = new File(templatesDir);
         File[] templateFiles = files.listFiles();
         List<File> fileList = new ArrayList<>();
         for(File templateFile : templateFiles)    {

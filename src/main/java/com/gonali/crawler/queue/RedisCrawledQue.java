@@ -11,17 +11,25 @@ import java.util.List;
  */
 public class RedisCrawledQue {
 
-    public void putCrawledQue(List<CrawlerData> crawlerData, /*JedisPoolUtils jedisPoolUtils*/Jedis jedis, String taskid) {
+    public void putCrawledQue(List<CrawlerData> crawlerData, Jedis jedis, String taskid) {
 
         try {
-//            Jedis jedis = JedisPoolUtils.getJedis();//jedisPoolUtils.getJedisPool().getResource();
 
             for (CrawlerData data : crawlerData) {
-                String crawlDataJson = JSONUtil.object2JacksonString(data);
-                jedis.hset("webmagicCrawler::Crawled::" + taskid, data.getUrl(), crawlDataJson);
+
+                try {
+
+                    String crawlDataJson = JSONUtil.object2JacksonString(data);
+                    jedis.hset("webmagicCrawler::Crawled::" + taskid, data.getUrl(), crawlDataJson);
+
+                } catch (Exception e) {
+
+                    e.printStackTrace();
+                }
             }
 
-        }catch (Exception ex){
+        } catch (Exception ex) {
+
             ex.printStackTrace();
         }
 

@@ -11,7 +11,7 @@ public class ConfigUtils {
     private String hostname;
     private int port;
     private String dbName;
-    private String user;
+    private String username;
     private String password;
 
 
@@ -32,7 +32,7 @@ public class ConfigUtils {
         configUtils.hostname = rb.getString(prefix + "HOSTNAME");
         configUtils.port = Integer.parseInt(rb.getString(prefix + "PORT"));
         configUtils.dbName = rb.getString(prefix + "DBNAME");
-        configUtils.user = rb.getString(prefix + "USER");
+        configUtils.username = rb.getString(prefix + "USER");
         configUtils.password = rb.getString(prefix + "PASSWORD");
 
 
@@ -50,7 +50,7 @@ public class ConfigUtils {
         configUtils.hostname = rb.getString(prefix + "HOSTNAME");
         configUtils.port = Integer.parseInt(rb.getString(prefix + "PORT"));
         configUtils.dbName = rb.getString(prefix + "DBNAME");
-        configUtils.user = rb.getString(prefix + "USER");
+        configUtils.username = rb.getString(prefix + "USER");
         configUtils.password = rb.getString(prefix + "PASSWORD");
 
 
@@ -87,8 +87,8 @@ public class ConfigUtils {
         return this.dbName;
     }
 
-    public String getUser() {
-        return this.user;
+    public String getUsername() {
+        return this.username;
     }
 
     public String getPassword() {

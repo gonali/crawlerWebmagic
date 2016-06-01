@@ -27,7 +27,7 @@ public class MySqlPoolUtils extends LoggerUtil {
     private MySqlPoolUtils(ConfigUtils configUtils) {
         this.url = "jdbc:mysql://" + configUtils.getHostname() + ":" + configUtils.getPort() +
                 "/" + configUtils.getDbName();
-        this.username = configUtils.getUser();
+        this.username = configUtils.getUsername();
         this.password = configUtils.getPassword();
         init();
     }
