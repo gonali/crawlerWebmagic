@@ -34,7 +34,11 @@ public class WholesitePageProcessor implements PageProcessor {
         this.textAnalysis = textAnalysis;
     }
 
-    private Site site = Site.me().setDomain(/*"http://blog.ifeng.com/"*/"http://www.gog.cn").setRetryTimes(3).setSleepTime(1000);
+    private Site site = Site.me()
+            .setDomain(/*"http://blog.ifeng.com/"*//*"http://www.gog.cn"*/"http://china.huanqiu.com/")
+            .setCharset("utf-8")
+            .setRetryTimes(3)
+            .setSleepTime(1000);
 
     @Override
     public void process(Page page) {
@@ -43,7 +47,7 @@ public class WholesitePageProcessor implements PageProcessor {
         String url = page.getRequest().getUrl();
 
         try {
-           // jedisPoolUtils = new JedisPoolUtils();
+            // jedisPoolUtils = new JedisPoolUtils();
             jedis = JedisPoolUtils.getJedis();//jedisPoolUtils.getJedis();
             String json_crawlData = jedis.hget("webmagicCrawler::ToCrawl::" + tid, page.getRequest().getUrl());
             CrawlerData page_crawlerData = (CrawlerData) JSONUtil.jackson2Object(json_crawlData, CrawlerData.class);
@@ -64,7 +68,7 @@ public class WholesitePageProcessor implements PageProcessor {
 
             BloomFilter bloomFilter = new BloomFilter(jedis, 1000, 0.001f, (int) Math.pow(2, 31));
             for (CrawlerData crawlerData : perPageCrawlDateList) {
-                if(linkFilter(crawlerData) == true)   {
+                if (linkFilter(crawlerData) == true) {
                     if (crawlerData.isFetched() == false) {
                         //链接fetched为false,即导航页,bloomFilter判断待爬取队列没有记录
                         boolean isNew = RedisBloomFilter.notExistInBloomHash(crawlerData.getUrl(), jedis, bloomFilter);
@@ -94,7 +98,7 @@ public class WholesitePageProcessor implements PageProcessor {
 
         } catch (IOException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             JedisPoolUtils.cleanJedis(jedis);
         }
 
@@ -107,9 +111,9 @@ public class WholesitePageProcessor implements PageProcessor {
     }
 
     public boolean linkFilter(CrawlerData crawlerData) {
-        if(!crawlerData.getUrl().endsWith(".css")&&!crawlerData.getUrl().endsWith(".js")&&!crawlerData.getUrl().endsWith(".jpg")&& crawlerData.getUrl().contains("http://www.gog.cn/")) {
+        if (!crawlerData.getUrl().endsWith(".css") && !crawlerData.getUrl().endsWith(".js")&& !crawlerData.getUrl().endsWith(".gif")&& !crawlerData.getUrl().endsWith(".png") && !crawlerData.getUrl().endsWith(".jpg") && crawlerData.getUrl().contains("http://china.huanqiu.com/"/*"http://www.gog.cn/"*/)) {
             return true;
-        }else {
+        } else {
             return false;
         }
     }

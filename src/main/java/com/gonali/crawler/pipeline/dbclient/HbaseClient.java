@@ -27,7 +27,7 @@ public class HbaseClient extends AbstractDBClient {
 
     private String tableName;
     private String columnFamilyName;
-    private HConnection connection;
+//    private HConnection connection;
     private HTableInterface myTable;
 
 
@@ -60,20 +60,22 @@ public class HbaseClient extends AbstractDBClient {
 
     @Override
     public int doSetInsert() {
-        int i = 0;
+        int count = 0;
 
-        for (CrawlerData o : dataList) {
+        for (int i = 0; i < dataList.size(); ++i) {
 
             try {
-                i += this.insertRecord(tableName, RandomUtils.getRandomString(50) + "_" + new Date().getTime(), columnFamilyName, o);
+                count += this.insertRecord(tableName, RandomUtils.getRandomString(50) + "_" + new Date().getTime(), columnFamilyName, dataList.get(i));
             } catch (Exception ex) {
                 logger.warn("HbaseClient doSetInsert Exception!!! Message: " + ex.getMessage());
                 ex.printStackTrace();
             }
         }
-        this.dataList.clear();
+//        this.dataList.clear();
 
-        return i;
+        this.dataList = new ArrayList<>();
+
+        return count;
     }
 
     @Override
@@ -95,13 +97,13 @@ public class HbaseClient extends AbstractDBClient {
         String type = null;
 
 
-        try {
-            this.connection = HbasePoolUtils.getHConnection();
-            myTable = this.connection.getTable(tableName);
-        } catch (Exception ex) {
-            logger.error("Hbase get connection Error or get table Error!!, Message: " + ex.getMessage());
-            ex.printStackTrace();
-        }
+//        try {
+//            this.connection = HbasePoolUtils.getHConnection();
+            myTable = HbasePoolUtils.getHTable(tableName);//this.connection.getTable(tableName);
+//        } catch (Exception ex) {
+//            logger.error("Hbase get connection Error or get table Error!!, Message: " + ex.getMessage());
+//            ex.printStackTrace();
+//        }
 
 
         Put put = new Put(Bytes.toBytes(rowKey));// 设置rowkey
@@ -111,24 +113,24 @@ public class HbaseClient extends AbstractDBClient {
         List<Map<String, Object>> myDataList = utils.getAttributeInfoList();
         try {
 
-            for (Map<String, Object> o : myDataList) {
+            for (int i = 0; i < myDataList.size(); ++i) {
                 try {
-                    columnQualifier = o.get("name").toString();
-                    type = o.get("type").toString();
+                    columnQualifier = myDataList.get(i).get("name").toString();
+                    type = myDataList.get(i).get("type").toString();
 
                     switch (type) {
 
                         case "int":
-                            value = Integer.toString((int) o.get("value"));
+                            value = Integer.toString((int) myDataList.get(i).get("value"));
                             break;
                         case "long":
-                            value = Long.toString((long) o.get("value"));
+                            value = Long.toString((long) myDataList.get(i).get("value"));
                             break;
                         case "boolean":
-                            value = Boolean.toString((boolean) o.get("value"));
+                            value = Boolean.toString((boolean) myDataList.get(i).get("value"));
                             break;
                         default:
-                            value = (String) o.get("value");
+                            value = (String) myDataList.get(i).get("value");
                             break;
                     }
 
@@ -154,9 +156,9 @@ public class HbaseClient extends AbstractDBClient {
 
             try {
                 myTable.close();
-                this.connection.close();
+//                this.connection.close();
             } catch (Exception exc) {
-                logger.warn("Hbase table.close() or connection,close() error!!! Message: " + exc.getMessage());
+                logger.warn("Hbase table.close() error!!! Message: " + exc.getMessage());
                 exc.printStackTrace();
             }
 
@@ -169,10 +171,10 @@ public class HbaseClient extends AbstractDBClient {
         try {
 
             myTable.close();
-            this.connection.close();
+//            this.connection.close();
 
         } catch (Exception ex) {
-            logger.warn("Hbase table.close() or connection,close() error!!! Message: " + ex.getMessage());
+            logger.warn("Hbase table.close() error!!! Message: " + ex.getMessage());
             ex.printStackTrace();
         }
 //        System.out.println("add data Success!");

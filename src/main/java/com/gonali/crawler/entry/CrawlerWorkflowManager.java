@@ -1,8 +1,10 @@
 package com.gonali.crawler.entry;
 
 import com.gonali.crawler.model.CrawlerData;
+import com.gonali.crawler.model.rdb.FengBirdModel;
 import com.gonali.crawler.parser.analysis.TextAnalysis;
 import com.gonali.crawler.pipeline.impl.EsPipeline;
+import com.gonali.crawler.pipeline.impl.HbasePipeline;
 import com.gonali.crawler.pipeline.impl.MysqlPipeline;
 import com.gonali.crawler.queue.RedisCrawledQue;
 import com.gonali.crawler.queue.RedisToCrawlQue;
@@ -66,14 +68,14 @@ public class CrawlerWorkflowManager {
                         //从seed开始抓
                 .addUrl(urls)
                         //存入mysql
-                .addPipeline(new MysqlPipeline("tb_fbird"))
+                .addPipeline(new MysqlPipeline("tb_fbird", new FengBirdModel()))
                         //存入elasticSearch
 //                .addPipeline(new EsPipeline())
-                .addPipeline(new ConsolePipeline())
+//                .addPipeline(new ConsolePipeline())
 //                .addPipeline(new HbaseEsPipeline())
 //                .addPipeline(new HbasePipeline())
                         //开启5个线程抓取
-                .thread(15)
+                .thread(5)
 //                .thread(1)
                         //启动爬虫
                 .run();

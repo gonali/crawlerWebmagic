@@ -66,17 +66,17 @@ public class EsClient extends AbstractDBClient {
 
     public int doSetInsert() {
 
-        int i = 0;
+        int count = 0;
 
-        for (CrawlerData o : dataList) {
+        for (int i = 0; i < dataList.size(); ++i) {
 
-            String dataJson = JSON.toJSONString(o);
+            String dataJson = JSON.toJSONString(dataList.get(i));
 
             try {
 
                 //this.doPut(this.requestUrl + RandomUtils.getRandomString(50) + "_" + new Date().getTime(), dataJson);
                 HttpUtils.doPut(this.requestUrl + RandomUtils.getRandomString(50) + "_" + new Date().getTime(), dataJson);
-                ++i;
+                ++count;
 
             } catch (Exception ex) {
                 logger.warn("EsClient doSetInsert Exception!!! DATA IS: " + dataJson);
@@ -84,9 +84,10 @@ public class EsClient extends AbstractDBClient {
                 ex.printStackTrace();
             }
         }
-        this.dataList.clear();
+        //this.dataList.clear();
+        this.dataList = new ArrayList<>();
 
-        return i;
+        return count;
     }
 
     public int doSetInsert(String url, String data) {

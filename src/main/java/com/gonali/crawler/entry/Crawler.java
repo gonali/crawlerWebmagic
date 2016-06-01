@@ -106,6 +106,6 @@ public class Crawler {
         }
 
         long end_time = System.currentTimeMillis();
-        System.out.println("time elapse(FenZhong):" + (end_time - start_time) / 1000 / 60);
+        System.out.println("time elapse(FenZhong):" + (end_time - start_time));
     }
 }

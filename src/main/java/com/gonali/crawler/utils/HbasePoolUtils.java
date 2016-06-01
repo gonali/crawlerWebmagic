@@ -4,6 +4,7 @@ import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.client.HConnection;
 import org.apache.hadoop.hbase.client.HConnectionManager;
+import org.apache.hadoop.hbase.client.HTableInterface;
 
 import java.io.IOException;
 
@@ -26,12 +27,7 @@ public class HbasePoolUtils {
         conf.set("hbase.zookeeper.property.clientPort", port);
     }
 
-    public static synchronized Configuration getConfiguration() {
-
-        return conf;
-    }
-
-    public static synchronized HConnection getHConnection() throws IOException {
+    private static synchronized HConnection getHConnection() throws IOException {
 
         if (hConnection == null) {
 
@@ -49,6 +45,36 @@ public class HbasePoolUtils {
         }
 
         return hConnection;
+    }
+
+    public static synchronized Configuration getConfiguration() {
+
+        return conf;
+    }
+
+    public static HTableInterface getHTable(String tableName) {
+
+        HTableInterface table;
+        try {
+            table = getHConnection().getTable(tableName);
+        }catch (Exception ex){
+            System.out.println("get hconnection error!!!");
+            ex.printStackTrace();
+            return null;
+        }
+
+        return table;
+    }
+
+    public static void cleanAll() {
+        if (hConnection != null) {
+            try {
+                hConnection.close();
+            }catch (Exception ex){
+
+                ex.printStackTrace();
+            }
+        }
     }
 
 }

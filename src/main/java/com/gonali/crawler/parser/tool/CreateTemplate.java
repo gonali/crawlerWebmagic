@@ -46,7 +46,7 @@ public class CreateTemplate {
         String url;
 
 //        File inputFile = new File("D:\\IdeaProjects\\webmagicDemo\\data\\tempin.txt");
-        File inputFile = new File("/home/TianyuanPan/IdeaProjects/webmagicDemo/data/tempin.txt");
+        File inputFile = new File("/home/TianyuanPan/IdeaProjects/crawlerWebmagic/data/tempin.txt");
         BufferedReader htmlReader = new BufferedReader(new FileReader(inputFile));
         while ((url = htmlReader.readLine()) != null) {
             System.out.println(url);
@@ -81,14 +81,14 @@ public class CreateTemplate {
 
         //从模版库中读取已有模版文件
 //        File file = new File("D:\\IdeaProjects\\webmagicDemo\\templates\\");
-        File file = new File("/home/TianyuanPan/IdeaProjects/webmagicDemo/templates/");
+        File file = new File("/home/TianyuanPan/IdeaProjects/crawlerWebmagic/templates/");
         if (!file.exists() && !file.isDirectory()) {
             file.mkdir();
         }
 
 
 //        File templatesParentFile = new File("D:\\IdeaProjects\\webmagicDemo\\templates\\");
-        File templatesParentFile = new File("/home/TianyuanPan/IdeaProjects/webmagicDemo/templates/");
+        File templatesParentFile = new File("/home/TianyuanPan/IdeaProjects/crawlerWebmagic/templates/");
         File[] templateFiles = templatesParentFile.listFiles();
         if (templateFiles.length > 0) {
             for (File templateFile : templateFiles) {

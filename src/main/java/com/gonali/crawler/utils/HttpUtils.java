@@ -23,6 +23,7 @@ public class HttpUtils {
         conn.setRequestMethod(REQUEST_POST);
         conn.setDoInput(true);
         conn.setDoOutput(true);
+        conn.setConnectTimeout(30 * 1000);// timeout in 30 s
 
         PrintWriter printWriter = new PrintWriter(conn.getOutputStream());
         printWriter.write(data);
@@ -53,6 +54,7 @@ public class HttpUtils {
         URL url = new URL(urlStr + paramter);
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setRequestMethod(REQUEST_GET);
+        conn.setConnectTimeout(30 * 1000);// timeout in 30 s
         conn.connect();
         BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
         String line;
@@ -71,6 +73,8 @@ public class HttpUtils {
         conn.setRequestMethod(REQUEST_PUT);
         conn.setDoInput(true);
         conn.setDoOutput(true);
+        conn.setConnectTimeout(30 * 1000);// timeout in 30 s
+
         PrintWriter printWriter = new PrintWriter(conn.getOutputStream());
         printWriter.write(data);
         printWriter.flush();
@@ -100,6 +104,7 @@ public class HttpUtils {
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setDoInput(true);
         conn.setRequestMethod(REQUEST_DELETE);
+        conn.setConnectTimeout(30*1000);// timeout in 30 s
 
         BufferedReader br = new BufferedReader(new InputStreamReader(conn.getInputStream()));
         String line;

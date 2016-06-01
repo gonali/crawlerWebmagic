@@ -2,18 +2,14 @@ package com.gonali.crawler.pipeline.dbclient;
 
 
 import com.gonali.crawler.model.CrawlerData;
-import com.gonali.crawler.model.FengBirdModel;
+import com.gonali.crawler.model.InsertSqlModel;
+import com.gonali.crawler.model.rdb.RdbModel;
 import com.gonali.crawler.utils.ConfigUtils;
-import com.gonali.crawler.utils.CrawlerDataUtils;
 import com.gonali.crawler.utils.MySqlPoolUtils;
 
-import java.sql.DriverManager;
 import java.sql.Statement;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
-import java.util.Map;
 
 /**
  * Created by TianyuanPan on 5/4/16.
@@ -25,11 +21,11 @@ public class MysqlClient extends AbstractDBClient {
     private MySqlPoolUtils pool;
 
 
-    private List<InsertSqlModel> insertSqlModels;
+    private List<InsertSqlModel> insertSqlModelList;
 
     public MysqlClient() {
 
-        this.insertSqlModels = new ArrayList<>();
+        this.insertSqlModelList = new ArrayList<>();
         this.configUtils = ConfigUtils.getConfigUtils("MYSQL_");
         this.pool = MySqlPoolUtils.getMySqlPoolUtils(configUtils);
         this.connection = null;
@@ -88,11 +84,12 @@ public class MysqlClient extends AbstractDBClient {
             logger.warn("Warning: the connection is NOT open!!!");
             return lineSum;
         }
-        for (InsertSqlModel model : this.insertSqlModels) {
+        int size = this.insertSqlModelList.size();
+        for (int i = 0; i < size; ++i) {
 
             try {
 
-                String sql = model.getInsertSql();
+                String sql = this.insertSqlModelList.get(i).getInsertSql();
                 lineSum += this.myStatement.executeUpdate(sql);
 
             } catch (Exception ex) {
@@ -102,7 +99,7 @@ public class MysqlClient extends AbstractDBClient {
 
             }
         }
-        this.insertSqlModels.clear();
+        this.insertSqlModelList = new ArrayList<>();
         return lineSum;
     }
 
@@ -112,91 +109,12 @@ public class MysqlClient extends AbstractDBClient {
     }
 
 
-    public Object addItem(String tableName, CrawlerData data) {
+    public Object addItem(String tableName, RdbModel rdbModel, CrawlerData data) {
 
-        InsertSqlModel model = new InsertSqlModel(tableName);
-
-        FengBirdModel fengBirdModel = new FengBirdModel();
-
-        List<Map<String, Object>> fieldList = CrawlerDataUtils.getCrawlerDataUtils(data).getAttributeInfoList();
-
-        for (Map<String, Object> m : fieldList) {
-
-            String field = (String) m.get("name");
-
-            switch (field) {
-                case "tid":
-                    fengBirdModel.setTopicTaskID((String) m.get("value"));
-                    break;
-                case "url":
-                    fengBirdModel.setUrl((String) m.get("value"));
-                    break;
-                case "crawlTime":
-                    fengBirdModel.setCrawlTime((long) m.get("value"));
-                    break;
-                case "publishTime":
-                    fengBirdModel.setLabelTime((long) m.get("value"));
-                    break;
-                case "title":
-                    fengBirdModel.setTitle((String) m.get("value"));
-                    break;
-                case "rootUrl":
-                    fengBirdModel.setRootUrl((String) m.get("value"));
-                    break;
-                case "fromUrl":
-                    fengBirdModel.setFromUrl((String) m.get("value"));
-                    break;
-                default:
-                    break;
-            }
-
-        }
-
-        fieldList = CrawlerDataUtils.getCrawlerDataUtils(fengBirdModel).getAttributeInfoList();
-
-        for (Map<String, Object> m : fieldList) {
-
-            String type = (String) m.get("type");
-
-            switch (type) {
-                case "long":
-                    String dateString = "'" +
-                            new SimpleDateFormat("YYYY-MM-dd HH:mm:ss")
-                                    .format(new Date((long) m.get("value"))) + "'";
-
-                    model.addKeyValue((String) m.get("name"), dateString);
-                    break;
-                case "int":
-                    model.addKeyValue((String) m.get("name"), m.get("value"));
-                    break;
-                default:
-                    model.addKeyValue((String) m.get("name"), "'" + m.get("value") + "'");
-                    break;
-            }
-
-
-        }
-/*
-        model.addKeyValue("title", "'" + data.getTitle() + "'");
-        Long time = data.getPublishTime();
-        if (time == null) {
-            model.addKeyValue("publicTime", "'" + new SimpleDateFormat("YYYY-MM-dd HH:mm:ss").format(new Date().getTime()) + "'");
-        } else
-            model.addKeyValue("publicTime", "'" + new SimpleDateFormat("YYYY-MM-dd HH:mm:ss").format(new Date(data.getPublishTime())) + "'");
-
-        model.addKeyValue("url", "'" + data.getUrl() + "'");
-        model.addKeyValue("text", "'" + data.getText() + "'");
-        model.addKeyValue("fetched", data.isFetched());
-        model.addKeyValue("html", "'" + data.getHtml().replace("\\\'","\'").replace("\'", "\\\'") + "'");
-*/
-
-        insertSqlModels.add(model);
+        rdbModel.setThisModelFields(data);
+        InsertSqlModel model = rdbModel.insertSqlModelBuilder(tableName);
+        insertSqlModelList.add(model);
         return model;
-    }
-
-    public Object addItem(CrawlerData data) {
-
-        return null;
     }
 
 }
